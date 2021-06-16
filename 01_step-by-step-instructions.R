@@ -20,7 +20,14 @@ blogdown::check_gitignore()
 
 blogdown::check_content()
 
-
 # Other issues encountered:
 # https://community.rstudio.com/t/blogdown-unable-to-stage-and-commit/6621/4
 # To commit all staged commits: git add -A
+
+library(rstudioapi) # to easily navigate to files
+rstudioapi::navigateToFile("config.yaml", line = 3)
+
+# if exists, opens; if not, creates new
+blogdown::config_netlify()
+# check the file
+blogdown::check_netlify()
