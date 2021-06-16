@@ -19,3 +19,8 @@ file.edit(".gitignore")
 blogdown::check_gitignore()
 
 blogdown::check_content()
+
+
+# Other issues encountered:
+# https://community.rstudio.com/t/blogdown-unable-to-stage-and-commit/6621/4
+# To commit all staged commits: git add -A
