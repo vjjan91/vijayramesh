@@ -37,3 +37,4 @@ blogdown::check_hugo()
 
 # start customizing the website
 rstudioapi::navigateToFile("config/_default/params.toml")
+rstudioapi::navigateToFile("content/authors/admin/_index.md")
