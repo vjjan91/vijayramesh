@@ -34,7 +34,7 @@ coordinates:
   latitude: ''
   longitude: ''
 directions: ""
-office_hours:[]
+office_hours: []
 appointment_url: ""
 contact_links:
   - icon: twitter
