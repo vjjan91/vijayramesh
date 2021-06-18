@@ -1,0 +1,25 @@
+# Theme metadata
+name = "vijay"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary ="#575757"
+primary_light = "#ee5863"
+primary_dark = "#ee5863"
+
+# Links
+link = "#999999"
+link_hover = "#111111"
+
+# Menu
+menu_primary = "#fcfcfc00" 
+menu_text = "#999999"
+menu_text_active = "#111111"
+menu_title = "#111111"
+
+# Backgrounds
+background = "#fcfcfc"
+home_section_odd = "#fcfcfc"
+home_section_even = "#fcfcfcF"

@@ -31,3 +31,9 @@ rstudioapi::navigateToFile("config.yaml", line = 3)
 blogdown::config_netlify()
 # check the file
 blogdown::check_netlify()
+
+# check hugo
+blogdown::check_hugo()
+
+# start customizing the website
+rstudioapi::navigateToFile("config/_default/params.toml")
