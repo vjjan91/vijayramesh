@@ -10,9 +10,8 @@ body {
 #navbar-main.navbar-light.fixed-top {
     box-shadow: none;
     text-transform: lowercase;
-    background-image: linear-gradient(to bottom, #fcfcfc 50%, rgba(252,252,252,0)) !important;  
+    background-image: linear-gradient(to bottom, #fcfcfc 50%, rgba(252,252,252,0)) !important; 
 }
-
 
 h1, h2, h3 {
   text-transform: uppercase;
@@ -53,7 +52,6 @@ padding: 1rem;
   margin-top: -30px;
 }
 
-
 #about h1 {
   margin-bottom: 50px;
 }
@@ -79,9 +77,8 @@ padding: 1rem;
 
 .parallax {
   background-attachment: fixed;
-  width: 100%;
+  max-width: 100%;
 }
-
 
 /*------- iframe-----*/
 
