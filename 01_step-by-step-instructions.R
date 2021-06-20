@@ -38,3 +38,4 @@ blogdown::check_hugo()
 # start customizing the website
 rstudioapi::navigateToFile("config/_default/params.toml")
 rstudioapi::navigateToFile("content/authors/admin/_index.md")
+rstudioapi::navigateToFile("content/home/hero.md", line = 5, column = 10)
