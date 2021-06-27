@@ -35,7 +35,7 @@ interests:
 organizations:
 - name: Columbia University
   url: http://e3b.columbia.edu/
-  
+
 role: PhD Candidate
 
 social:

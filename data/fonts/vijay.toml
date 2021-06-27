@@ -14,3 +14,6 @@ mono_font = "Cutive Mono"
 # Font size
 font_size = "18"
 font_size_small = "17"
+font_size_extra_small = "17"
+font_size_medium = "17"
+font_size_large = "18"
