@@ -27,8 +27,8 @@ interests:
 - Historical Ecology
 - Bioacoustics
 - Ornithology
-- Mentoring
 - Natural History
+- Mentoring
 - Spatial Analysis
 - Cartography
 

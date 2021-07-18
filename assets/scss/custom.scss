@@ -16,14 +16,18 @@ body {
     }
      .navbar {
       min-height: 100px !important;
+      float: right;
     }
   }
 
 .navbar {
     background-color: #fcfcfc33;
     box-shadow: 0 0 50px rgba(252, 252, 252, 0.76);
-    text-transform: lowercase;
     background-image: linear-gradient(to bottom, #fcfcfc, #fcfcfc, #fcfcfc, #fcfcfced, #fcfcfcba, #fcfcfc33) !important;  
+}
+
+.nav-link {
+color: black !important;
 }
 
 /*make drop down menu more opaque on mobile */
@@ -74,7 +78,7 @@ a.nav-link:hover:after {
 
 
 h1, h2, h3 {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 
@@ -125,11 +129,10 @@ padding: 1rem;
 
 #about .portrait-title h2 {
   margin-top: 50px;
-  margin-bottom: 30px;
 }
 
 #about .portrait-title h3 {
-  text-transform: lowercase !important;
+  text-transform: capitalize !important;
   font-family: "Open Sans";
   margin-top: 10px;
 }
@@ -162,7 +165,7 @@ padding: 1rem;
   left:0;
   right:0;
   z-index:-1; /* needed to keep in the background */
-  background: url(/img/hello.jpg) center center;
+  background: url(/assets/mukurthi-bgd-1.jpg) center center;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
@@ -177,9 +180,6 @@ padding: 1rem;
     padding: 330px 0 275px 0;
   }
 }
-
-
-
 
 /* MOBILE PROJECTS PAGE */
 /* Adds small gap between feature img and Title */

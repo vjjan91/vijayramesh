@@ -29,7 +29,7 @@ subtitle = ""
   # gradient_end = "SkyBlue"
   
   # Background image.
-  image = "nilgiris-bgd-1.jpg"  # Name of image in `assets/media/`.
+  image = "mukurthi-bgd-1.jpg"  # Name of image in `assets/media/`.
   image_darken = 1  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
@@ -37,7 +37,7 @@ subtitle = ""
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["0px", "0", "600px", "0"]
+  padding = ["0px", "0px", "1200px", "0px"]
 
 [advanced]
  # Custom CSS. 
