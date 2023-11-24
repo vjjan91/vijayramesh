@@ -62,12 +62,12 @@ A key feature of your website is not only content, but structuring how this cont
 
 -   Let's assume that you have now added content and you want to see what that looks like online. To do this, we must carry out two key steps - render the pages (so that .Rmd files are converted to .html) and deploy/publish them.
 
+-   Before we render & deploy our website online, we need to do first rename the `_site` folder to `docs` - the reason we do this is because `docs` is usually the default location/folder that git searches for .html files. Ensure that your .yaml output parameter in your `_site.yml` file is also changed to `docs`.
+
 -   To render the pages, we simply type in our console `rmarkdown::render_site()`. This function will render all the .Rmd files in this project/repository. If you wish to render an article at a time, which is suggested to prevent other pages from breaking/erroneous deployment, you could run `render_site("index.Rmd")` for example.
 
 -   Coming to deployment/publishing you website, there are a couple of ways in which you could do this. I am using Git Pages to deploy the same. To learn more about publishing your website, please [visit this link](https://rstudio.github.io/distill/publish_website.html#github-pages).
 
--   To deploy your rendered pages (.html files) online, we need to do first rename the `_site` folder to `docs` - the reason we do this is because `docs` is usually the default location/folder that git searches for .html files.
-
--   Finally, go to your github repository-\>Settings-\>Pages and choose the branch from your site will be deployed. Here, you will choose `main` --\> `docs`.
+-   To ensure your webpages are deployed from the right location, go to your github repository-\>Settings-\>Pages and choose the branch from your site will be deployed. Here, you will choose `main` --\> `docs`.
 
 -   Push the commits/changes online to GitHub, since the .html files have been rendered and vola, you will now see your website deployed at the `github.io` link!
