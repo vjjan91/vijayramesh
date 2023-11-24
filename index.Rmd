@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Personal Website"
 site: distill::distill_website
 ---
 
@@ -11,6 +11,12 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Learn more about publishing to GitHub Pages at:
 # https://rstudio.github.io/distill/publish_website.html#github-pages
+```
+
+```{css}
+d-title {
+    display: none;
+  }
 ```
 
 ```{r, layout="l-screen-inset", fig.cap = "A view of shola grasslands in Mukurthi National Park, Western Ghats, India."}
