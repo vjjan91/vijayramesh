@@ -1,0 +1,32 @@
+name: "vijayramesh"
+title: "Vijay Ramesh" # this will appear in the top left corner of your header
+description: |
+  My personal website
+output_dir: "docs" # where the .html files that are created following site rendering are stored & later used by GitHub for publishing
+creative_commons: CC BY-SA
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Research"
+      href: research.html
+    - text: "People"
+      href: people.html
+    - text: "News"
+      href: news.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Blog"
+      href: blog.html
+    - icon: fab fa-github
+      href: https://github.com/vjjan91/vijayramesh
+
+output:
+  distill::distill_article:
+    toc: true
+    toc_float: true
+
+# Below content from Allison Horst's git repo
+
+# To remove table of contents on each page, set toc: and toc_float: lines to false
+# To add or remove pages, create .Rmd (in root), add information (in the navbar) for the .html that is created from it, then build.
