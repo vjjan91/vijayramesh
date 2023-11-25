@@ -14,12 +14,20 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ```{css}
+/* Unlike the typical distill websites shown in the examples online, I did not want a title YAML/text in the beginning and the first thing I wanted was an image. So this function below, borrowed from a google serach, gets rid of the requirment of a title & uses csss to do the same. You can delete this code chunk if you want to include a title in your website */
+
 d-title {
     display: none;
   }
 ```
 
-```{r, layout="l-screen-inset", fig.cap = "A view of shola grasslands in Mukurthi National Park, Western Ghats, India."}
+```{r, layout="l-screen", fig.cap = "High elevation grasslands in Mukurthi National Park, Western Ghats, India (Photo taken by Vijay Ramesh)."}
 
 knitr::include_graphics("figs/mukurthi-bgd-1.jpg")
 ```
+
+## Welcome!  
+
+I am a postdoctoral research fellow at the [K. Lisa Yang Center for Conservation Bioacoustics, Cornell Lab of Ornithology](https://www.birds.cornell.edu/ccb/). My research is focused on understanding how the environment shapes the ecology and behavior of tropical montane birds. My research uses an interdisciplinary and collaborative approach that borrows from conservation bioacoustics, community science, and historical ecology.  
+
+**email**: vr292\@cornell.edu   

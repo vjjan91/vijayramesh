@@ -3,7 +3,6 @@ title: "Vijay Ramesh" # this will appear in the top left corner of your header
 description: |
   My personal website
 output_dir: "docs" # where the .html files that are created following site rendering are stored & later used by GitHub for publishing
-creative_commons: CC BY-SA
 navbar:
   right:
     - text: "Home"

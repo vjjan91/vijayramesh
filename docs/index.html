@@ -91,7 +91,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <title>Vijay Ramesh: Personal Website</title>
 
 
-  <link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"/>
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
@@ -2155,21 +2154,34 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#welcome" id="toc-welcome">Welcome!</a></li>
+</ul>
+</nav>
+</div>
 <div class="layout-chunk" data-layout="l-body">
 <style type="text/css">
+/* Unlike the typical distill websites shown in the examples online, I did not want a title YAML/text in the beginning and the first thing I wanted was an image. So this function below, borrowed from a google serach, gets rid of the requirment of a title & uses csss to do the same. You can delete this code chunk if you want to include a title in your website */
+
 d-title {
     display: none;
   }
 </style>
 </div>
-<div class="layout-chunk" data-layout="l-screen-inset">
+<div class="layout-chunk" data-layout="l-screen">
 <div class="figure"><span style="display:block;" id="fig:unnamed-chunk-2"></span>
-<img src="figs/mukurthi-bgd-1.jpg" alt="A view of shola grasslands in Mukurthi National Park, Western Ghats, India."  />
+<img src="figs/mukurthi-bgd-1.jpg" alt="High elevation grasslands in Mukurthi National Park, Western Ghats, India (Photo taken by Vijay Ramesh)."  />
 <p class="caption">
-Figure 1: A view of shola grasslands in Mukurthi National Park, Western Ghats, India.
+Figure 1: High elevation grasslands in Mukurthi National Park, Western Ghats, India (Photo taken by Vijay Ramesh).
 </p>
 </div>
 </div>
+<h2 id="welcome">Welcome!</h2>
+<p>I am a postdoctoral research fellow at the <a href="https://www.birds.cornell.edu/ccb/">K. Lisa Yang Center for Conservation Bioacoustics, Cornell Lab of Ornithology</a>. My research is focused on understanding how the environment shapes the ecology and behavior of tropical montane birds. My research uses an interdisciplinary and collaborative approach that borrows from conservation bioacoustics, community science, and historical ecology.</p>
+<p><strong>email</strong>: vr292@cornell.edu</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2182,13 +2194,16 @@ Figure 1: A view of shola grasslands in Mukurthi National Park, Western Ghats, I
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->
-<div class="appendix-bottom">
-<h3 id="reuse">Reuse</h3>
-<p>Text and figures are licensed under Creative Commons Attribution <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".</p>
-</div>
+<div class="appendix-bottom"></div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
+<div class="distill-site-nav distill-site-footer">
+<p>
+  This website was made with <u><a href="https://rstudio.github.io/distill/">distill by RStudio</a></u>.
+</p>
+</div>
 <!--/radix_placeholder_navigation_after_body-->
+
 
 </body>
 
