@@ -1,6 +1,10 @@
 ---
 title: "Personal Website"
 site: distill::distill_website
+output:
+  distill::distill_article:
+    toc: false
+    toc_float: false
 ---
 
 ```{r setup, include=FALSE}
@@ -14,7 +18,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ```{css}
-/* Unlike the typical distill websites shown in the examples online, I did not want a title YAML/text in the beginning and the first thing I wanted was an image. So this function below, borrowed from a google serach, gets rid of the requirment of a title & uses csss to do the same. You can delete this code chunk if you want to include a title in your website */
+/* Unlike the typical distill websites shown in the examples online, I did not want a title YAML/text in the beginning and the first thing I wanted was an image. So this function below, borrowed from a google search, gets rid of the requirement of a title & uses css to do the same. You can delete this code chunk if you want to include a title in your website */
 
 d-title {
     display: none;
