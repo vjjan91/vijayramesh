@@ -2,7 +2,7 @@ name: "vijayramesh"
 title: "Vijay Ramesh" # this will appear in the top left corner of your header
 description: |
   My personal website
-output_dir: "_site" # where the .html files that are created following site rendering are stored & later used by GitHub for publishing
+output_dir: "docs" # where the .html files that are created following site rendering are stored & later used by GitHub for publishing
 #theme: theme.css
 navbar:
   right:
