@@ -5,8 +5,8 @@ description: |
 preview: "2023-biol-cons.png"
 output:
   distill::distill_article:
-    toc: false
-    toc_float: false
+    toc: true
+    toc_float: true
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -25,6 +25,11 @@ d-title {
     display: none;
   }
   
+/*add a custom line of code to include a bit more space at the top for the table of contents*/
+.d-contents nav h3 {
+    margin-top: 1em;
+}
+  
 /* remove excess margin space around figures */
 
 .figure {
@@ -32,12 +37,14 @@ d-title {
     margin-bottom: 0em;
 }
 ```
+
 <p style="color: white">.  </p> 
 
 Bioacoustics offers us a unique opportunity to study wildlife and their environment. Today, passive acoustic monitoring devices are capable of monitoring vocalizing biodiversity across spatial scales for extended periods of time and allows us to study multiple taxonomic groups simultaneously. Below, you will find a map of active and inactive projects across geographies and some information on ongoing projects.  
 
 All acoustic code and analyses can be accessed by visiting this [GitHub repository](https://github.com/vjjan91).  
 
+<p style="color: white">.  </p>
 ```{r, layout = "l-page", warning =FALSE}
 library(mapview)
 library(leafpop)
@@ -94,13 +101,13 @@ For the last few years, we have been carefully annotating acoustic data from the
 knitr::include_graphics("birdnet.png")
 ```
 
+### [Project Dhvani](http://projectdhvani.weebly.com/)  
+
 ::: {.floatting}
 ```{r, out.width = "30%", out.extra='style="float:right; padding:10px"'}
 
 # Upload image here 
 knitr::include_graphics("project-dhvani-logo.png")
 ```
-### [Project Dhvani](http://projectdhvani.weebly.com/)  
-
 Pooja Choksi, Sarika Khanwilkar and I co-founded [Project Dhvani](http://projectdhvani.weebly.com/) in 2018, and we are a research collaborative that uses sound to monitor biodiversity and inform resource management. To learn more about the projects we do, please visit our site by clicking on the title.  
 :::  
