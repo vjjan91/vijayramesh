@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
   <meta name="generator" content="distill" />
+  <link rel="alternate" type="application/rss+xml" href="https://vijayramesh.rbind.io/research.xml" />
 
   <style type="text/css">
   /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
@@ -88,26 +89,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Vijay Ramesh: Research</title>
+  <title>Vijay Ramesh: Research themes</title>
 
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Vijay Ramesh: Research"/>
+  <meta property="og:title" content="Vijay Ramesh: Research themes"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Vijay Ramesh"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Vijay Ramesh: Research"/>
+  <meta property="twitter:title" content="Vijay Ramesh: Research themes"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","output"]}},"value":[{"type":"character","attributes":{},"value":["Research"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_float"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[false]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","listing"]}},"value":[{"type":"character","attributes":{},"value":["Research themes"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["posts"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2111,12 +2112,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 </head>
 
-<body>
+<body class="layout-listing">
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Research","authors":[]}
+{"title":"Research themes","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2125,6 +2126,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
 <a href="index.html" class="title">Vijay Ramesh</a>
+<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
 <a href="index.html">Home</a>
@@ -2143,9 +2145,190 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
+<!--radix_placeholder_article_listing-->
+
+
+<script type="application/javascript">
+
+function init_posts_list() {
+
+  function load_image(img) {
+    var src = $(img).attr('data-src');
+    if (src) {
+      $(img).attr('src', src);
+      $(img).on("load", function() {
+        img.removeAttribute('data-src');
+      });
+    }
+  }
+
+  function set_posts_visible(posts, visible) {
+    if (visible) {
+
+      // show bottom border by default
+      $(posts).removeClass('post-preview-last');
+
+      // apply limits if need be
+      var max_posts = 25;
+      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
+      if (apply_limits && posts.length > max_posts) {
+        posts = $(posts).slice(0, max_posts);
+      } else {
+        $('.posts-more a').addClass('hidden');
+      }
+
+      // apply last style
+      $(posts.slice(-1)[0]).addClass('post-preview-last');
+
+      $(posts).removeClass('hidden');
+      $(posts).find('img[data-src]').each(function(i, img) {
+        load_image(img);
+      });
+    } else {
+      $(posts).addClass('hidden');
+    }
+  }
+
+  function apply_hash_filter() {
+
+    // clear active state
+    $('.categories .active').removeClass('active');
+
+    // mark all posts invisible to start
+    set_posts_visible($('.posts-list').children('a'), false);
+
+    // if we have a hash filter
+    if (window.location.hash && window.location.hash.startsWith("#category:")) {
+
+      // mark posts that match the category visible
+      var page_category = window.location.hash.replace(/^#category:/, "");
+      page_category = decodeURIComponent(page_category)
+      var posts = $('.post-metadata').map(function(idx, script) {
+        var metadata = $.parseJSON($(script).html());
+        var post = null;
+        $.each(metadata.categories, function(idx, category) {
+          category = category.replace(/ /g,"_");
+          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
+            post = $(script).parent().get();
+            return false;
+          }
+        });
+        return post;
+      });
+      set_posts_visible(posts, true);
+
+      // mark the hash active
+      $('.categories li>a[href="' + decodeURIComponent(window.location.hash) + '"]').addClass('active');
+
+      // update the list_caption
+      var list_caption = $('.posts-list-caption');
+      var caption = (page_category || '').toLowerCase() === "articles"
+        ? list_caption.attr('data-caption')
+        : ('Category: ' + page_category.replace(/_/g," "));
+      list_caption.text(caption);
+
+    } else {
+
+      // no hash filter, make all posts visible (subject to max display)
+      set_posts_visible($('.posts-list').children(), true);
+
+      // reset list caption
+      var list_caption = $('.posts-list-caption');
+      list_caption.text(list_caption.attr('data-caption'));
+
+
+    }
+  }
+
+  // more articles
+  function apply_post_limits(apply) {
+    if (apply) {
+      $('.posts-container').addClass('posts-apply-limit');
+      $('.posts-more a').removeClass('hidden');
+    } else {
+      $('.posts-container').removeClass('posts-apply-limit');
+      $('.posts-more a').addClass('hidden');
+    }
+  }
+
+  // click handling for tags
+  $('.dt-tag').click(function(ev) {
+    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
+    return false;
+  })
+
+  // hash filter handling
+  apply_hash_filter();
+  $(window).on('hashchange',function() {
+    apply_post_limits(true);
+    apply_hash_filter();
+  });
+
+  // more articles link
+  $('.posts-more a').click(function(e) {
+    e.preventDefault();
+    apply_post_limits(false);
+    apply_hash_filter();
+    return false;
+  });
+
+}
+
+</script>
+
+
+
+<div class="posts-container posts-apply-limit l-page">
+<div class="posts-list">
+<h1 class="posts-list-caption" data-caption="Research themes">Research themes</h1>
+<a href="posts/2024-04-14-conservation-bioacoustics/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<div class="metadata">
+<div class="publishedDate">April 16, 2024</div>
+</div>
+<div class="thumbnail">
+<img src="posts/2024-04-14-conservation-bioacoustics/2023-biol-cons.png"/>
+</div>
+<div class="description">
+<h2>Conservation Bioacoustics</h2>
+<p>I use passive acoustic monitoring to study wildlife across multiple geographies. Examples of projects include: quantifying bird vocal activity across habitats, documenting soundscapes in coffee farms, and using AI to carry out automated recognition of bird calls.</p>
+</div>
+</a>
+<a href="posts/2024-04-15-historical-ecology/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<div class="metadata">
+<div class="publishedDate">April 16, 2024</div>
+</div>
+<div class="thumbnail">
+<img src="posts/2024-04-15-historical-ecology/historical-map.png"/>
+</div>
+<div class="description">
+<h2>Historical Ecology</h2>
+<p>I use historical datasets to better understand the long-term impacts of climate change and habitat loss on biodiversity.</p>
+</div>
+</a>
+<a href="posts/2024-04-16-citizen-science/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<div class="metadata">
+<div class="publishedDate">April 16, 2024</div>
+</div>
+<div class="thumbnail">
+<img src="posts/2024-04-16-citizen-science/eBird.png"/>
+</div>
+<div class="description">
+<h2>Citizen Science</h2>
+<p>I rely on citizen science datasets to model species distributions.</p>
+</div>
+</a>
+</div>
+<div class="posts-more">
+<a href="#">More articles &raquo;</a>
+</div>
+</div>
+<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>Research</h1>
+<h1>Research themes</h1>
 
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
@@ -2161,53 +2344,19 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 d-title {
     display: none;
   }
+  
+/* We also do not want the date to be displayed when the overview of research themes are published, so we set the entire css element (here it's the metadata) to none */
+
+.metadata  {
+    display: none;
+}
+
+/* I also made slight modifications to enlarge the thumbnail, because the date is no longer being displayed/shown. */
+
+.posts-list .post-preview .thumbnail { 
+    width: 50%; 
+}
 </style>
-</div>
-<p style="color: white">
-.
-</p>
-<p>My research aims to understand how habitat loss and climatic changes impact bird species distributions, behavior, and their ecology. A common thread in my experience working with birds has been the terrain that I have studied them in: mountains. I use a wide array of tools and techniques to test fundamental ecological theory and its applications.</p>
-<p>There are three broad lenses through which I study bird communities: Conservation Bioacoustics, Historical Ecology, and citizen science.</p>
-<p>To learn more about the current list of active projects and geographies we work in, please visit this page.</p>
-<h2 id="conservation-bioacoustics">Conservation Bioacoustics</h2>
-<p>Bioacoustics offers us a unique opportunity to study wildlife and their environment. Passive acoustic monitoring devices are capable of monitoring vocalizing biodiversity across broad spatial scales for extended periods of time and allows us to study multiple taxonomic groups simultaneously. Presently, we are working on a range of projects that includes tracking and monitoring bird vocal activity across habitats, understanding the drivers of the dawn chorus, documenting soundscapes in coffee farms, recording vocalizations of an endangered primate, using AI to carry out automated recognition of sounds etc. To learn more, please visit the link at the top of this page.</p>
-<div class="layout-chunk" data-layout="l-body-outset">
-<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-2"></span>
-<img src="figs/2023-biol-cons.png" alt="Work published in [Biological Conservation](https://www.sciencedirect.com/science/article/pii/S0006320723001726) showed that active restoration helped increase bird species diversity compared to natural regeneration. Pictured here is an illustration of bird communities across a naturally regenerating (NR), actively restored (AR) and benchmark forests (BM) in the Anamalai hills, Western Ghats. Artist: Chayant Gonsalves. Bonus points if you can spot the audio recorder!" width="2154" />
-<p class="caption">
-Figure 1: Work published in <a href="https://www.sciencedirect.com/science/article/pii/S0006320723001726">Biological Conservation</a> showed that active restoration helped increase bird species diversity compared to natural regeneration. Pictured here is an illustration of bird communities across a naturally regenerating (NR), actively restored (AR) and benchmark forests (BM) in the Anamalai hills, Western Ghats. Artist: Chayant Gonsalves. Bonus points if you can spot the audio recorder!
-</p>
-</div>
-</div>
-<h3 id="project-dhvani"><a href="http://projectdhvani.weebly.com/">Project Dhvani</a></h3>
-<div class="floatting">
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="figs/project-dhvani-logo.png" width="50%" style="float:left; padding:20px" /></p>
-</div>
-<p style="color: white">
-.
-</p>
-<p>Pooja Choksi, Sarika Khanwilkar and I co-founded <a href="http://projectdhvani.weebly.com/">Project Dhvani</a> in 2018, and we are a research collaborative that uses sound to monitor biodiversity and inform resource management. To learn more about the projects we do, please visit the link above.</p>
-</div>
-<h2 id="historical-ecology">Historical Ecology</h2>
-<p>The field of historical ecology aims to taps into a plethora of historical datasets available to inform biodiversity conservation. Using data from historical maps, satellite images, diaries of ornithologists and old journal articles, we study the impacts of landscape and climate change on bird communities.</p>
-<div class="layout-chunk" data-layout="l-body-outset">
-<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-4"></span>
-<img src="figs/historical-map.png" alt="An 1848 land cover map of the Nilgiri hills, based on a survey carried out by Captain John Ouchterlony. Sources: Tamil Nadu State Archive and the British Library." width="2138" />
-<p class="caption">
-Figure 2: An 1848 land cover map of the Nilgiri hills, based on a survey carried out by Captain John Ouchterlony. Sources: Tamil Nadu State Archive and the British Library.
-</p>
-</div>
-</div>
-<h2 id="citizen-science">Citizen Science</h2>
-<p>The advent of large-scale citizen science datasets has now made it possible to carry out a wide range of research across a number of species, including mapping species distributions and prioritizing conservation efforts. Using data from the world’s largest citizen science database, <a href="https://ebird.org/home">eBird</a>, we study how the environment shapes species behavior, habitat use and its distribution.</p>
-<div class="layout-chunk" data-layout="l-body-outset">
-<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-5"></span>
-<img src="figs/citizen-science.png" alt="Using data from eBird, we showed that thermal regimes are key in constraining elevational migration in Himalayan birds [(Menon et al. 2023).](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.13761) In the Western Ghats of south India, we showed that temperature seasonality was a key driver of bird species occupancy [(Ramesh et al. 2022).](https://nsojournals.onlinelibrary.wiley.com/doi/full/10.1111/ecog.06075)" width="1994" />
-<p class="caption">
-Figure 3: Using data from eBird, we showed that thermal regimes are key in constraining elevational migration in Himalayan birds <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.13761">(Menon et al. 2023).</a> In the Western Ghats of south India, we showed that temperature seasonality was a key driver of bird species occupancy <a href="https://nsojournals.onlinelibrary.wiley.com/doi/full/10.1111/ecog.06075">(Ramesh et al. 2022).</a>
-</p>
-</div>
 </div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
