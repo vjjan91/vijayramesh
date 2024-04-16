@@ -2125,6 +2125,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
 <a href="index.html" class="title">Vijay Ramesh</a>
+<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
 <a href="index.html">Home</a>
@@ -2132,7 +2133,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <a href="people.html">People</a>
 <a href="news.html">News</a>
 <a href="publications.html">Publications</a>
-<a href="blog.html">Blog</a>
 <a href="https://github.com/vjjan91/vijayramesh">
 <i class="fab fa-github" aria-hidden="true"></i>
 </a>
@@ -2161,11 +2161,18 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 d-title {
     display: none;
   }
+
+/* remove excess margin space around figures */
+
+.figure {
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
 </style>
 </div>
 <div class="floatting">
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="figs/vijay-ramesh-headshot.jpg" width="50%" style="float:left; padding:20px" /></p>
+<p><img src="figs/vijay-ramesh-headshot.jpg" width="300px" style="float:left; padding:20px" /></p>
 </div>
 <p style="color: white">
 .
@@ -2178,14 +2185,12 @@ K. Lisa Yang Center for Conservation Bioacoustics<br />
 Cornell Lab of Ornithology</p>
 <p><a href="https://www.skyisland.in/">Visiting Postdoctoral Fellow</a><br />
 Indian Institute of Science Education and Research, Tirupati, India</p>
-<figure>
-<embed src="figs/ramesh-vijay-cv-feb2024.pdf" />
-<figcaption aria-hidden="true">Download CV</figcaption>
-</figure>
+<p><a href="files/ramesh-vijay-cv-feb-2024.pdf">Download CV</a></p>
 </div>
+<h2 id="mentees-current-and-former">Mentees (current and former)</h2>
 <div class="floatting">
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="figs/faizee-profile.jpg" width="50%" style="float:left; padding:20px" /></p>
+<p><img src="figs/faizee-profile.jpg" width="300px" style="float:left; padding:20px" /></p>
 </div>
 <p style="color: white">
 .
@@ -2199,7 +2204,7 @@ Indian Institute of Science Education and Research, Tirupati, India</p>
 </div>
 <div class="floatting">
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="figs/swathi-profile.jpeg" width="50%" style="float:left; padding:20px" /></p>
+<p><img src="figs/swathi-profile.jpeg" width="300px" style="float:left; padding:20px" /></p>
 </div>
 <p style="color: white">
 .
@@ -2212,7 +2217,7 @@ Indian Institute of Science Education and Research, Tirupati, India</p>
 </div>
 <div class="floatting">
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="figs/pavithra-profile.jpg" width="50%" style="float:left; padding:20px" /></p>
+<p><img src="figs/pavithra-profile.jpg" width="300px" style="float:left; padding:20px" /></p>
 </div>
 <p style="color: white">
 .
@@ -2225,7 +2230,7 @@ Indian Institute of Science Education and Research, Tirupati, India</p>
 </div>
 <div class="floatting">
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="figs/vandana-profile.jpg" width="50%" style="float:left; padding:20px" /></p>
+<p><img src="figs/vandana-profile.jpg" width="300px" style="float:left; padding:20px" /></p>
 </div>
 <p style="color: white">
 .
@@ -2236,10 +2241,9 @@ Indian Institute of Science Education and Research, Tirupati, India</p>
 <p><a href="https://keystone-foundation.org/team/">Wildlife Biologist, Keystone Foundation</a></p>
 <p>Vandana is examining the acoustic ecology of the Grey slender loris.</p>
 </div>
-<h2 id="alumni">Alumni</h2>
 <div class="floatting">
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="figs/meghana-srivathsa-profile.jpg" width="50%" style="float:left; padding:20px" /></p>
+<p><img src="figs/meghana-srivathsa-profile.jpg" width="300px" style="float:left; padding:20px" /></p>
 </div>
 <p style="color: white">
 .
@@ -2252,7 +2256,7 @@ Indian Institute of Science Education and Research, Tirupati, India</p>
 </div>
 <div class="floatting">
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="figs/akshay-anand-profile.jpg" width="50%" style="float:left; padding:20px" /></p>
+<p><img src="figs/akshay-anand-profile.jpg" width="300px" style="float:left; padding:20px" /></p>
 </div>
 <p style="color: white">
 .
@@ -2266,7 +2270,7 @@ Indian Institute of Science Education and Research, Tirupati, India</p>
 </div>
 <div class="floatting">
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="figs/amrutha-rajan-profile.jpg" width="50%" style="float:left; padding:20px" /></p>
+<p><img src="figs/amrutha-rajan-profile.jpg" width="300px" style="float:left; padding:20px" /></p>
 </div>
 <p style="color: white">
 .
@@ -2278,6 +2282,28 @@ Indian Institute of Science Education and Research, Tirupati, India</p>
 <em>Current: Project Assistant, Keystone Foundation</em></p>
 <p>Amrutha digitized historical land cover data and carrying out fieldwork across the Nilgiris.</p>
 </div>
+<h2 id="collaborators">Collaborators</h2>
+<p>I believe that science is a team-effort and none of the work I do would be possible without collaborations and partnerships. Below, I have listed current and former collaborators and mentors (in no particular order):</p>
+<p><a href="https://tropicos.netlify.app/author/priyanka-hari-haran/">Priyanka Hari Haran</a><br />
+<a href="https://www.birds.cornell.edu/ccb/laurel-b-symes-ph-d/">Laurel Symes</a><br />
+<a href="https://scholar.google.nl/citations?user=ve_IGT8AAAAJ&amp;hl=en">Pratik Rajan Gupte</a><br />
+<a href="https://www.skyisland.in/">VV Robin</a><br />
+<a href="https://www.morgantingley.com/">Morgan W. Tingley</a><br />
+<a href="https://www.ruthdefries.e3b.columbia.edu/ruth-defries/">Ruth S DeFries</a><br />
+<a href="https://www.ncf-india.org/author/646399/divya-mudappa">Divya Mudappa</a><br />
+<a href="https://www.ncf-india.org/author/646400/t-r-shankar-raman">T R Shankar Raman</a><br />
+<a href="https://keystone-foundation.org/team/">Anita Varghese</a><br />
+<a href="https://scholar.google.com/citations?user=Kw8YWeMAAAAJ&amp;hl=en">VA Akshay</a><br />
+<a href="http://www.sahasbarve.com/">Sahas Barve</a><br />
+<a href="https://tarunmenon.wordpress.com/">Tarun Menon</a><br />
+<a href="https://www.imperial.ac.uk/people/sarab.sethi">Sarab Sethi</a><br />
+<a href="https://poojachoksi.weebly.com/">Pooja Choksi</a><br />
+<a href="https://www.linkedin.com/in/sarikakhanwilkar/?originalSubdomain=in">Sarika Khanwilkar</a><br />
+<a href="https://www.researchgate.net/profile/Vijayakumar-S-P">Vijayakumar S P</a><br />
+<a href="https://kslab.weebly.com/">Kartik Shanker</a></p>
+<p><a href="https://www.ncf-india.org/">Nature Conservation Foundation</a><br />
+<a href="https://keystone-foundation.org/">Keystone Foundation</a><br />
+<a href="https://store.blackbazacoffee.com/">Black Baza Coffee Co.</a></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
