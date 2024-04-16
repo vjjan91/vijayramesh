@@ -2,6 +2,7 @@ name: "vijayramesh"
 title: "Vijay Ramesh" # this will appear in the top left corner of your header
 description: |
   My personal website
+base_url: https://vijayramesh.rbind.io/
 output_dir: "docs" # where the .html files that are created following site rendering are stored & later used by GitHub for publishing
 #theme: theme.css
 navbar:
@@ -16,15 +17,21 @@ navbar:
       href: news.html
     - text: "Publications"
       href: publications.html
-    - text: "Blog"
-      href: blog.html
     - icon: fab fa-github
       href: https://github.com/vjjan91/vijayramesh
+  search: false
 
 output:
   distill::distill_article:
     toc: true
     toc_float: true
+
+collections:
+  posts:
+      categories: false
+      categories_metadata: false
+      authors_metadata: false
+      citations: false
 
 # Below content from Allison Horst's git repo
 
