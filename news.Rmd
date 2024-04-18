@@ -1,0 +1,88 @@
+---
+title: "News"
+site: distill::distill_website
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{css}
+/* Unlike the typical distill websites shown in the examples online, I did not want a title YAML/text in the beginning and the first thing I wanted was an image. So this function below, borrowed from a google search, gets rid of the requirement of a title & uses css to do the same. You can delete this code chunk if you want to include a title in your website */
+
+d-title {
+    display: none;
+  }
+
+/*add a custom line of code to include a bit more space at the top for the table of contents*/
+.d-contents nav h3 {
+    margin-top: 1em;
+}
+
+/* remove excess margin space around figures */
+
+.figure {
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+```
+
+<p style="color: white">.  </p>   
+
+### 2015  
+
+__October__: I was awarded the Best Speed Talk award at the Student Conference on Conservation Science, New York.  
+
+```{r}
+## Ingenious solution for placing thumbnail and youtube video
+## https://stackoverflow.com/questions/14192709/is-it-possible-to-embed-youtube-vimeo-videos-in-markdown-using-a-c-sharp-markdow
+```
+
+[![SCCS-NY 2015: Best Talk](https://img.youtube.com/vi/Dm0A4Rm402U/0.jpg)](https://www.youtube.com/watch?v=Dm0A4Rm402U "SCCS-NY 2015: Best Talk")
+
+::: {.floatting}
+```{r, out.width = "30%", out.extra='style="float:right; padding:10px"'}
+
+knitr::include_graphics("figs/idea-wild.webp")
+```
+<p style="color: white">.  </p> 
+__July__: IDEA WILD is providing me equipment to carry out field work in the Western Ghats.
+:::
+
+::: {.floatting}
+```{r, out.width = "30%", out.extra='style="float:right; padding:10px"'}
+
+knitr::include_graphics("figs/idea-wild.webp")
+```
+<p style="color: white">.  </p> 
+__July__: IDEA WILD is providing me equipment to carry out field work in the Western Ghats.
+:::
+
+::: {.floatting}
+```{r, out.width = "30%", out.extra='style="float:right; padding:10px"'}
+
+knitr::include_graphics("figs/cooper-ornith-soc.jpg")
+```
+<p style="color: white">.  </p> 
+__May__: I received the Mewaldt-King Student Research Award from the Cooper Ornithological Society to fund my master's thesis work.  
+:::
+
+::: {.floatting}
+```{r, out.width = "30%", out.extra='style="float:right; padding:10px"'}
+
+knitr::include_graphics("figs/ssb-logo.png")
+```
+<p style="color: white">.  </p> 
+__May__: I received the Society of Systematic Biologists Travel Award to attend the Standalone meeting in Michigan. I presented my findings on cryptic diversity within the *Indirana* genus of frogs.    
+:::
+
+### 2014
+
+__September__: I started grad school in the fall of 2014 at Columbia University. I will be majoring in Conservation biology and expect to graduate in May 2016.  
+
+
