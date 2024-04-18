@@ -1,0 +1,88 @@
+---
+title: "Publications"
+site: distill::distill_website
+output:
+  distill::distill_article:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{css}
+/* Unlike the typical distill websites shown in the examples online, I did not want a title YAML/text in the beginning and the first thing I wanted was an image. So this function below, borrowed from a google search, gets rid of the requirement of a title & uses css to do the same. You can delete this code chunk if you want to include a title in your website */
+
+d-title {
+    display: none;
+  }
+
+/*add a custom line of code to include a bit more space at the top for the table of contents*/
+.d-contents nav h3 {
+    margin-top: 1em;
+}
+
+/* remove excess margin space around figures */
+
+.figure {
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+```
+
+<p style="color: white">.  </p> 
+
+## Peer-reviewed       
+
+### Works in progress    
+
+Ramesh, Vijay, Srivathsa, Meghana, Hariharan, Priyanka, Symes, Laurel. *Current stage: Analysis*. __Diurnal variation in avian vocal activity across a gradient of forest regeneration__.  
+
+Ramesh, Vijay, Hariharan, Priyanka, Robin, VV, Symes, Laurel. *Current stage: Analysis*. __Abundance is highly correlated with vocal activity across a community of tropical birds__.  
+
+Ramesh, Vijay, Akshay, VA, Chandrasekar, S, Gupte, Pratik Rajan, Rajan, Amrutha, Mohan, Ashwini V, Mohanraj, S, Robin, VV, Tingley, Morgan W, DeFries, Ruth S. *Current stage: Writing*. __Historical resurveys of birds reveal range shifts along a tropical montane gradient in the Western Ghats__.   
+
+### Published articles  
+
+Menon, Tarun, Ramesh, Vijay, Barve, Sahas. __Himalayan birds that show the greatest elevational shifts remain within the narrowest thermal regimes__. 2023. Global Ecology and Biogeography. [Download PDF here](files/2023-menon et al-geb.pdf). [Code and analysis here](https://github.com/vjjan91/elevMigration).  
+*Media coverage*: [Mongabay](https://india.mongabay.com/2024/04/understanding-the-elevational-movements-of-himalayan-birds-to-improve-conservation-efforts/).  
+
+Sethi, Sarab S., Bick, Avery, Ewers, Robert M., Klinck, Holger, Ramesh, Vijay, Tuanmu, Mao-Ning, Coomes, David A. 2023. __Is there an accurate and generalisable way to use soundscapes to monitor biodiversity?__ Nature Ecology and Evolution. [Download PDF here](files/2023-sethi et al-natecoevo.pdf).    
+
+Ramesh, Vijay, Hariharan, Priyanka, Akshay, VA, Choksi, Pooja, Khanwilkar, Sarika, DeFries, Ruth S, Robin, VV. 2023. __Using passive acoustic monitoring to examine the impacts of ecological restoration on faunal biodiversity in the Western Ghats__. Biological Conservation. [Download PDF here](files/2023-ramesh et al-biolcons.pdf). [Code and analysis here](https://github.com/vjjan91/acoustics-Restoration).   
+*Media coverage*: [Nature India](https://www.nature.com/articles/d44151-023-00081-5), [Documentary](https://www.youtube.com/watch?v=Erh2S2M0xrY).  
+
+Choksi, Pooja, Kotian, Mayuri, Biniwale, Siddarth, Mourya, Pravar, Korche, Devendra, Agarwala, Meghna, Khanwilkar, Sarika, Ramesh, Vijay, DeFries, Ruth. 2023. __Listening for Change: Quantifying the Impact of Ecological Restoration on Soundscapes in a Tropical Dry Forest.__ Restoration Ecology. [Download PDF here](files/2023-choksi et al-restorecol.pdf).  
+*Media coverage*: [Columbia Climate School](https://news.climate.columbia.edu/2023/01/26/restoring-land-for-livelihoods-can-have-ecological-benefits-study-suggests/), [DownToEarth](https://www.downtoearth.org.in/news/forests/study-offers-clues-on-ecological-gain-of-weeding-out-lantana-87113).  
+
+Ramesh, Vijay, Gupte, Pratik R., Robin, VV, Tingley, Morgan W., DeFries, Ruth S. 2022. __Using citizen science to parse climatic and landcover influences on bird occupancy within a tropical biodiversity hotspot.__ Ecography. [Download PDF here](files/2022-ramesh et al-ecography.pdf). [Code and analysis here](https://github.com/vjjan91/eBirdOccupancy).    
+*Media coverage*: [Deccan Herald](https://www.deccanherald.com/science/how-birders-help-conservation-1151552.html).  
+
+Shetty, Sarthak J., Ramesh, Vijay. 2021. __pyResearchInsights - An open-source Python package for scientific text analysis__. Ecology and Evolution. [Download PDF here](files/2021-shetty and ramesh-ecolevol.pdf). [Code and analysis here](https://github.com/SarthakJShetty/pyResearchInsights).      
+
+Barve, Sahas, Ramesh, Vijay, Dotterer, Toni M., Dove, Carla J. 2021. __Elevation and body size drive convergent variation in thermo-insulative feather structure of Himalayan birds__. Ecography. [Download PDF here](files/2021-barve et al-ecography.pdf).  
+*Media coverage*: [BBC News](https://www.bbc.com/news/science-environment-56072590), [BBC Global News Podcast](https://www.bbc.co.uk/programmes/p0973ky0), [Smithsonian Magazine](https://www.smithsonianmag.com/smithsonian-institution/himalayan-songbirds-adapted-cold-sporting-thicker-down-jackets-180977042/).  
+
+Ramesh, Vijay, Vijayakumar, SP, Gopalakrishna, Trisha, Jayarajan, Aditi, Shanker, Kartik. 2020. __Determining levels of cryptic diversity within the endemic frog genera, Indirana and Walkerana, of the Western Ghats, India__. PLOS ONE. [Download PDF here](files/2020-ramesh et al-plosone.pdf).  
+*Media coverage*: [Research Matters](https://researchmatters.in/news/spot-difference-unravelling-cryptic-frogs-western-ghats).  
+
+Dinesh, KP, Vijayakumar, SP, Ramesh, Vijay, Jayarajan, Aditi, Chandramouli, SR, Shanker, Kartik. 2020. __A deeply divergent lineage of Walkerana (Anura: Ranixalidae) from the Western Ghats of Peninsular India__. Zootaxa. [__Download PDF here__](files/2020-dinesh et al-zootaxa.pdf).     
+*Media coverage*: [Mongabay](https://news.mongabay.com/2020/03/muduga-leaping-frog-is-first-new-member-of-its-genus-found-in-over-a-century/), [Deccan Herald](https://www.deccanherald.com/science/great-leap-forward-in-western-ghats-800934.html).  
+
+Hager, Ann Marie, Larson, James, Ugbah, Nene Kumashe, Ramesh, Vijay. 2017. __Oil Extraction in the Ecuadorian Amazon: Incorporating Conflict Resolution Theory and Practice__. Conflict Resolution Quarterly. [__Download PDF here__](files/2017-hager et al-crq.pdf).  
+
+Ramesh, Vijay, Gopalakrishna, Trisha, Barve, Sahas, Melnick, Don J. 2017. __Finer spatial resolution improves accuracy of species distribution models in heterogeneous landscapes - A response to Praveen J__. Biological Conservation. [__Download PDF here__](files/2017-ramesh et al-response-biolcons.pdf).     
+  
+Ramesh, Vijay, Gopalakrishna, Trisha, Barve, Sahas, Melnick, Don J. 2017. __IUCN greatly underestimates threat levels of endemic birds in the Western Ghats.__ Biological Conservation. [__Download PDF here__](files/2017-ramesh et al-biolcons.pdf).    
+*Media coverage*: [Mongabay](https://news.mongabay.com/2017/04/overestimated-range-maps-used-for-endemic-birds-in-indias-western-ghats-lead-to-underestimated-threats-study-finds/), [FactorDaily](https://archive.factordaily.com/western-ghats-birds-more-endangered-vijay-ramesh-study/), [EurekAlert](https://www.eurekalert.org/news-releases/666400), [EarthWise](https://earthwiseradio.org/2017/06/mapping-risk/), [Phys.Org](https://phys.org/news/2017-04-extinction-species-vastly-underestimated.html), [The Hindu](https://www.thehindu.com/sci-tech/energy-and-environment/a-shrinking-home-for-endemic-birds/article18230258.ece), [Columbia NewsRoom](https://news.columbia.edu/news/extinction-risk-many-species-vastly-underestimated-study-suggests), [HindustanTimes](https://www.hindustantimes.com/mumbai-news/rare-birds-in-maharashtra-s-western-ghats-under-greater-threat-than-thought-study/story-IAA8nWdWB79SiIuKB5JePL.html), [Indian Express](https://indianexpress.com/article/explained/18-birds-of-the-ghats-an-argument-over-the-extent-of-threat-they-face-4637923/), [Bangalore Mirror](https://bangaloremirror.indiatimes.com/bangalore/others/hills-may-soon-be-featherless/articleshow/58483065.cms), [El Pais](https://elpais.com/elpais/2017/06/09/ciencia/1497000881_503164.html#?ref=rss&format=simple&link=link), [Times of India](https://timesofindia.indiatimes.com/city/kochi/international-union-for-conservation-of-nature-wrong-on-endemic-birds-study/articleshow/59295685.cms).  
+
+## Popular science     
+
+Hari Haran, Priyanka and Ramesh, Vijay. [__Remembering the Magic of Natural History Museums - and Why We Need Them__](https://science.thewire.in/environment/india-natural-history-museums-digitisation-research/). 2020. The Wire.    
+
+Ramesh, Vijay, Rajan Gupte, Pratik, Mary Paul, Mridula. [__Analysing India's Environmental Governance__](https://www.sanctuarynaturefoundation.org/article/analysing-india%27s-environmental-governance). 2020. Sanctuary Asia. [Code and analysis here](https://github.com/vjjan91/Environmental-Clearances).  
+
+Hari Haran, Priyanka and Ramesh, Vijay. [__Listen closely: Using bioacoustics in wildlife conservation__](https://india.mongabay.com/2020/07/listen-closely-using-bioacoustics-in-wildlife-conservation/). 2020. Mongabay India.  
+
+Melnick, Don J and Ramesh, Vijay. [__When it comes to the IUCN Red List, accuracy is the order of the day (commentary)__](https://news.mongabay.com/2017/05/accuracy-is-the-order-of-the-day-commentary/). 2017. Mongabay.    
