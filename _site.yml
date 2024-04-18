@@ -17,9 +17,11 @@ navbar:
       href: news.html
     - text: "Publications"
       href: publications.html
+    - icon: ai ai-google-scholar fa-lg
+      href: https://scholar.google.com/citations?user=wDZCMlMAAAAJ&hl=en
     - icon: fab fa-github
       href: https://github.com/vjjan91/vijayramesh
-  search: false
+  search: false # to remove the search box
 
 output:
   distill::distill_article:
