@@ -1836,6 +1836,333 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </script>
 
+  <style type="text/css">
+  /* base variables */
+
+  /* Edit the CSS properties in this file to create a custom
+     Distill theme. Only edit values in the right column
+     for each row; values shown are the CSS defaults.
+     To return any property to the default,
+     you may set its value to: unset
+     All rows must end with a semi-colon.                      */
+
+  /* Optional: embed custom fonts here with `@import`          */
+  /* This must remain at the top of this file.                 */
+
+
+
+  html {
+    /*-- Main font sizes --*/
+    --title-size:      50px;
+    --body-size:       1.06rem;
+    --code-size:       14px;
+    --aside-size:      12px;
+    --fig-cap-size:    13px;
+    /*-- Main font colors --*/
+    --title-color:     #000000;
+    --header-color:    rgba(0, 0, 0, 0.8);
+    --body-color:      rgba(0, 0, 0, 0.8);
+    --aside-color:     rgba(0, 0, 0, 0.6);
+    --fig-cap-color:   rgba(0, 0, 0, 0.6);
+    /*-- Specify custom fonts ~~~ must be imported above   --*/
+    --heading-font:    sans-serif;
+    --mono-font:       monospace;
+    --body-font:       sans-serif;
+    --navbar-font:     sans-serif;  /* websites + blogs only */
+  }
+
+  /*-- ARTICLE METADATA --*/
+  d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   rgba(0, 0, 0, 0.5);
+    --body-size:       0.8rem;
+    --body-color:      rgba(0, 0, 0, 0.8);
+  }
+
+  /*-- ARTICLE TABLE OF CONTENTS --*/
+  .d-contents {
+    --heading-size:    18px;
+    --contents-size:   13px;
+  }
+
+  /*-- ARTICLE APPENDIX --*/
+  d-appendix {
+    --heading-size:    15px;
+    --heading-color:   rgba(0, 0, 0, 0.65);
+    --text-size:       0.8em;
+    --text-color:      rgba(0, 0, 0, 0.5);
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  /* These properties only apply to Distill sites and blogs  */
+
+  .distill-site-header {
+    --title-size:       18px;
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  .distill-site-footer {
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  /*-- Additional custom styles --*/
+  /* Add any additional CSS rules below                      */
+  </style>
+  <style type="text/css">
+  /* base variables */
+
+  /* Edit the CSS properties in this file to create a custom
+     Distill theme. Only edit values in the right column
+     for each row; values shown are the CSS defaults.
+     To return any property to the default,
+     you may set its value to: unset
+     All rows must end with a semi-colon.                      */
+
+  /* Optional: embed custom fonts here with `@import`          */
+  /* This must remain at the top of this file.                 */
+
+  /* to do: change monspace font, body font, look at Desiree blog and tidymodels at the same time */
+
+  /* Header font */
+  @import url('https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,300;1,300&display=swap');
+
+  /* Mono font */
+  @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+  /*Body font */
+  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+  /*Nav bar font */
+  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+  /*css for Google Scholar Icon */
+  @import url('https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css');
+
+
+  html {
+    /*-- Main font sizes --*/
+    --title-size:      50px;
+    --title-weight:    400;
+    --body-size:       1.06rem;
+    --code-size:       14px;
+    --aside-size:      12px;
+    --fig-cap-size:    13px;
+    /*-- Main font colors --*/
+    --title-color:     #000000;
+    --title-weight:    400;
+    --header-color:    rgba(0, 0, 0, 0.8);
+    --body-color:      rgba(0, 0, 0, 0.8);
+    --aside-color:     rgba(0, 0, 0, 0.6);
+    --fig-cap-color:   rgba(0, 0, 0, 0.6);
+    /*-- Specify custom fonts ~~~ must be imported above   --*/
+    --heading-font:    "Petrona", sans-serif;
+    --mono-font:       "Source Code Pro"; monospace;
+    --body-font:       "Red Hat Text"; sans-serif;
+    --navbar-font:     "Red Hat Text", sans-serif;
+  }
+
+  /*-- ARTICLE METADATA --*/
+  d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   rgba(0, 0, 0, 0.5);
+    --body-size:       0.8rem;
+    --body-color:      rgba(0, 0, 0, 0.8);
+  }
+
+  /*-- ARTICLE TABLE OF CONTENTS --*/
+  .d-contents {
+    --heading-size:    18px;
+    --contents-size:   13px;
+  }
+
+  /*-- ARTICLE APPENDIX --*/
+  d-appendix {
+    --heading-size:    15px;
+    --heading-color:   rgba(0, 0, 0, 0.65);
+    --text-size:       0.8em;
+    --text-color:      rgba(0, 0, 0, 0.5);
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  /* These properties only apply to Distill sites and blogs  */
+
+  .distill-site-header {
+    --title-size:       18px;
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  .distill-site-footer {
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  /*-- Additional custom styles --*/
+  /* Add any additional CSS rules below                      */</style>
+  <style type="text/css">
+  /* base style */
+
+  /* FONT FAMILIES */
+
+  :root {
+    --heading-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    --mono-default: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    --body-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  body,
+  .posts-list .post-preview p,
+  .posts-list .description p {
+    font-family: var(--body-font), var(--body-default);
+  }
+
+  h1, h2, h3, h4, h5, h6,
+  .posts-list .post-preview h2,
+  .posts-list .description h2 {
+    font-family: var(--heading-font), var(--heading-default);
+  }
+
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-family: var(--mono-font), var(--mono-default);
+  }
+
+
+  /*-- TITLE --*/
+  d-title h1,
+  .posts-list > h1 {
+    color: var(--title-color, black);
+  }
+
+  d-title h1 {
+    font-size: var(--title-size, 50px);
+  }
+
+  /*-- HEADERS --*/
+  d-article h1,
+  d-article h2,
+  d-article h3,
+  d-article h4,
+  d-article h5,
+  d-article h6 {
+    color: var(--header-color, rgba(0, 0, 0, 0.8));
+  }
+
+  /*-- BODY --*/
+  d-article > p,  /* only text inside of <p> tags */
+  d-article > ul, /* lists */
+  d-article > ol {
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+    font-size: var(--body-size, 1.06rem);
+  }
+
+
+  /*-- CODE --*/
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-size: var(--code-size, 14px);
+  }
+
+  /*-- ASIDE --*/
+  d-article aside {
+    font-size: var(--aside-size, 12px);
+    color: var(--aside-color, rgba(0, 0, 0, 0.6));
+  }
+
+  /*-- FIGURE CAPTIONS --*/
+  figure .caption,
+  figure figcaption,
+  .figure .caption {
+    font-size: var(--fig-cap-size, 13px);
+    color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
+  }
+
+  /*-- METADATA --*/
+  d-byline h3 {
+    font-size: var(--heading-size, 0.6rem);
+    color: var(--heading-color, rgba(0, 0, 0, 0.5));
+  }
+
+  d-byline {
+    font-size: var(--body-size, 0.8rem);
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+  }
+
+  d-byline a,
+  d-article d-byline a {
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+  }
+
+  /*-- TABLE OF CONTENTS --*/
+  .d-contents nav h3 {
+    font-size: var(--heading-size, 18px);
+  }
+
+  .d-contents nav a {
+    font-size: var(--contents-size, 13px);
+  }
+
+  /*-- APPENDIX --*/
+  d-appendix h3 {
+    font-size: var(--heading-size, 15px);
+    color: var(--heading-color, rgba(0, 0, 0, 0.65));
+  }
+
+  d-appendix {
+    font-size: var(--text-size, 0.8em);
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
+  }
+
+  d-appendix d-footnote-list a.footnote-backlink {
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  .distill-site-header .title {
+    font-size: var(--title-size, 18px);
+    font-family: var(--navbar-font), var(--heading-default);
+  }
+
+  .distill-site-header a,
+  .nav-dropdown .nav-dropbtn {
+    font-family: var(--navbar-font), var(--heading-default);
+  }
+
+  .nav-dropdown .nav-dropbtn {
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    font-size: var(--text-size, 15px);
+  }
+
+  .distill-site-header a:hover,
+  .nav-dropdown:hover .nav-dropbtn {
+    color: var(--hover-color, white);
+  }
+
+  .distill-site-header {
+    font-size: var(--text-size, 15px);
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    background-color: var(--bkgd-color, #0F2E3D);
+  }
+
+  .distill-site-footer {
+    font-size: var(--text-size, 15px);
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    background-color: var(--bkgd-color, #0F2E3D);
+  }
+
+  .distill-site-footer a:hover {
+    color: var(--hover-color, white);
+  }</style>
   <!--/radix_placeholder_distill-->
   <script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
@@ -1873,7 +2200,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <a href="people.html">People</a>
 <a href="news.html">News</a>
 <a href="publications.html">Publications</a>
-<a href="https://scholar.google.com/citations?user=wDZCMlMAAAAJ&amp;hl=en">
+<a href="https://scholar.google.com/citations?user=wDZCMlMAAAAJ">
 <i class="fa ai ai-google-scholar fa-lg" aria-hidden="true"></i>
 </a>
 <a href="https://github.com/vjjan91/vijayramesh">
@@ -1901,8 +2228,17 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#section" id="toc-section">2015</a></li>
-<li><a href="#section-1" id="toc-section-1">2014</a></li>
+<li><a href="#section" id="toc-section">2024</a></li>
+<li><a href="#section-1" id="toc-section-1">2023</a></li>
+<li><a href="#section-2" id="toc-section-2">2022</a></li>
+<li><a href="#section-3" id="toc-section-3">2021</a></li>
+<li><a href="#section-4" id="toc-section-4">2020</a></li>
+<li><a href="#section-5" id="toc-section-5">2019</a></li>
+<li><a href="#section-6" id="toc-section-6">2018</a></li>
+<li><a href="#section-7" id="toc-section-7">2017</a></li>
+<li><a href="#section-8" id="toc-section-8">2016</a></li>
+<li><a href="#section-9" id="toc-section-9">2015</a></li>
+<li><a href="#section-10" id="toc-section-10">2014</a></li>
 </ul>
 </nav>
 </div>
@@ -1927,24 +2263,108 @@ d-title {
 }
 </style>
 </div>
-<p style="color: white">
-.
-</p>
-<h3 id="section">2015</h3>
-<p><strong>October</strong>: I was awarded the Best Speed Talk award at the Student Conference on Conservation Science, New York.</p>
+<h3 id="section">2024</h3>
+<p><strong>May</strong>: Faizee Ali Khan defended his Master’s thesis successfully. Congrats Faizee!</p>
+<p><strong>March</strong>: I gave a talk on soundscapes in coffee farms at the Black Baza Roastery, in Bangalore, India.</p>
+<p><strong>January</strong>: I was invited by the Ecological Restoration Alliance, India for an online webinar on the use of conservation bioacoustics to monitor the impacts of ecological restoration. <strong>Click on the image below to view the talk</strong>.</p>
+<p><a href="https://www.youtube.com/watch?v=abmBA6n3_r4" title="ERA"><img src="https://img.youtube.com/vi/abmBA6n3_r4/0.jpg" alt="ERA" /></a></p>
+<h3 id="section-1">2023</h3>
+<div class="floatting">
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="figs/geb-cover.png" width="30%" style="float:right; padding:10px" /></p>
+</div>
+<p><strong>September</strong>: I co-authored a publication, led by Tarun Menon, examining altitudinal migration in Himalayan Birds in <em>Global Ecology and Biogeography</em>. We made the cover!</p>
+</div>
+<p><strong>July</strong>: I co-authored a publication, led by Sarab Sethi, on the generalizability of soundscapes across landscapes in <em>Nature Ecology and Evolution</em>.</p>
+<p><strong>July</strong>: I attended and presented the annual meeting of the Association for Tropical Biology and Conservation in Coimbatore, India. Here, I gave two talks, organized a workshop and a <a href="https://www.atbc2023.org/symposia/conservation-acoustics">symposium on conservation bioacoustics</a>. I was also invited as a panelist by the National Geographic Society to speak about grant writing and raising funds for research.</p>
+<p><strong>April</strong>: My second Ph.D. chapter - Using passive acoustic monitoring to assess faunal recovery in the Western Ghats is now published in <em>Biological Conservation</em>. Please head over to the publications page for more details.</p>
+<p><strong>March</strong>: I organized a symposium on <a href="https://www.birdmonitoring.in/schedule/#">‘Studying birds using passive acoustic monitoring’</a> as part of the Bird Monitoring in India. The symposium included 9 oral presentations and a keynote lecture.</p>
+<p><strong>March</strong>: I am honored to have been elected as the <a href="https://tropicalbiology.org/about-us/asia-pacific-chapter/">Secretary for the Asia-Pacific chapter of the Association for Tropical Biology and Conservation</a>. My term begins in March 2023 and is until March 2025.</p>
+<p><strong>January</strong>: I am proud to co-author a publication with Pooja Choksi and Sarika Khanwilkar. This paper was published in <em>Restoration Ecology</em> and examined the impacts of ecological restoration on fauna, using bioacoustics. Please go to the publications page for more details.</p>
+<h3 id="section-2">2022</h3>
+<p><strong>December</strong>: I started my postdoctoral fellowship at the <a href="https://www.birds.cornell.edu/home/staff/vijay-ramesh/">K. Lisa Yang Center for Conservation Bioacoustics, Cornell Lab of Ornithology</a> and gave a seminar on my research journey so far.</p>
+<p><strong>September</strong>: Pooja Choksi, Sarika Khanwilkar, Krishna Anujan and I won a National Geographic Society Meridian Grant.</p>
+<p><strong>July</strong>: I attended and presented at two conferences - the American Ornithological Society’s annual meeting in Puerto Rico and at the Association for Tropical Biology and Conservation annual meeting in Cartagena.</p>
+<div class="floatting">
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="figs/ecography-cover.png" width="30%" style="float:right; padding:10px" /></p>
+</div>
+<p><strong>June</strong>: My first Ph.D chapter - using eBird data to model the role of climate and land cover on bird occupancy in the Western Ghats - is now published in <em>Ecography</em>. We also made the cover of this journal!</p>
+</div>
+<p><strong>May</strong>: I defended my Ph.D. and received a doctoral degree in Ecology, Evolution, and Environmental Biology.</p>
+<p><strong>May</strong>: <a href="http://projectdhvani.weebly.com/">Project Dhvani</a> was featured in an article in the <a href="https://shaastramag.iitm.ac.in/special-feature/tech-gone-wild">Shaastra Magazine</a>.</p>
+<h3 id="section-3">2021</h3>
+<p><strong>December</strong>: I was awarded the Rose Postdoctoral Fellowship at the Cornell Lab of Ornithology. I am honored and excited to begin this fellowship next year!</p>
+<p><strong>November</strong>: I gave a seminar at the BioacousTalks series organized by the <a href="https://www.birds.cornell.edu/ccb/bioacoustalks/">K. Lisa Yang Center for Conservation Bioacoustics, Cornell Lab of Ornithology</a>.</p>
+<p><strong>October</strong>: <a href="http://projectdhvani.weebly.com/">Project Dhvani</a> was featured in the <a href="https://www.hindustantimes.com/lifestyle/art-culture/saving-every-tweet-meet-the-researchers-using-bird-calls-and-ai-to-study-biodiversity-101634283069252.html">Hindustan Times</a>.</p>
+<p><strong>September</strong>: Sarthak Shetty, an undergraduate mentee, and I published an open-source Python package for scientific text analysis in <em>Ecology and Evolution</em>. Head over to the publications page for more details.</p>
+<p><strong>April</strong>: I gave an invted seminar on forest soundscapes of the Western Ghats at the International Centre for Theoretical Science. <strong>Click on the image below to view the talk</strong>.</p>
+<p><a href="https://www.youtube.com/watch?v=-lxXAtGQ6Ok" title="ICTS"><img src="https://img.youtube.com/vi/-lxXAtGQ6Ok/0.jpg" alt="ICTS" /></a></p>
+<h3 id="section-4">2020</h3>
+<p><strong>November</strong>: I was invited to the Lunchtime Lecture at the Linnean Society. Here, I spoke about how technology is being used in the field to record and monitor wildlife. <strong>Click on the image below to view the talk</strong>.</p>
+<p><a href="https://www.youtube.com/watch?v=wv_DSYh2O2o" title="Linnean Lecture"><img src="https://img.youtube.com/vi/wv_DSYh2O2o/0.jpg" alt="Linnean lecture" /></a></p>
+<p><strong>September</strong>: My undergraduate thesis finally sees the light of day! A manuscript describing hidden cryptic diversity among the <em>Indirana</em> and <em>Walkerana</em> genus of frogs is now out on <em>PLOS ONE</em>. See publications page for details.</p>
+<div class="floatting">
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="figs/aps.svg" width="30%" style="float:right; padding:10px" /></p>
+</div>
+<p><strong>April</strong>: I am proud to have received the Lewis and Clark Exploration Fund from the American Philosophical Society.</p>
+</div>
+<div class="floatting">
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="figs/explorers-club.png" width="30%" style="float:right; padding:10px" /></p>
+</div>
+<p><strong>April</strong>: I received an Exploration Fund Grant from the Explorers Club to carry out a historical resurvey across the Nilgiri hills.</p>
+</div>
+<div class="floatting">
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="figs/ngs.webp" width="30%" style="float:right; padding:10px" /></p>
+</div>
+<p><strong>February</strong>: I received an early career grant from the National Geographic Society.</p>
+</div>
+<p><strong>January</strong>: We described a new frog species endemic to the Western Ghats, <em>Walkerana muduga</em> in the journal, <em>Zootaxa</em>. Please visit the publications page for more details.</p>
+<h3 id="section-5">2019</h3>
+<div class="floatting">
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="figs/rufford.jpg" width="30%" style="float:right; padding:10px" /></p>
+</div>
+<p><strong>November</strong>: I received a <a href="https://www.rufford.org/projects/vijay-ramesh/conservation-through-sounds-using-acoustics-to-evaluate-the-effectiveness-of-forest-restoration/">small research grant</a> from the Rufford Foundation to monitor vocalizing biodiversity across the Valparai plateau, Western Ghats.</p>
+</div>
+<div class="floatting">
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="figs/ac4.jpg" width="30%" style="float:right; padding:10px" /></p>
+</div>
+<p><strong>January</strong>: <a href="http://projectdhvani.weebly.com/">Project Dhvani</a> received the Student Research Fellowship Grant from the Advanced Consortium on Cooperation, Conflict and Complexity at Columbia University.</p>
+</div>
+<h3 id="section-6">2018</h3>
+<p><strong>July</strong>: In an article in Mongabay on how climate change affects breeding and nesting patterns of birds, I spoke about how citizen science and historical information could be used to understand how warming climates are affecting avian distributions as well as migratory patterns. You can find the article <a href="https://india.mongabay.com/2018/07/is-it-time-yet-climate-change-disturbs-breeding-and-nesting-season-in-birds/">here</a>.</p>
+<p><strong>June</strong>: <a href="https://poojachoksi.weebly.com/">Pooja Choksi</a>, <a href="https://www.linkedin.com/in/sarikakhanwilkar/?originalSubdomain=in">Sarika Khanwilkar</a> and I piloted a soundscapes study in the Western Ghats and Central India in the summer. Our goals were to test if we could monitor biodiversity using sounds. We ended up founding a new research collaborative called <a href="http://projectdhvani.weebly.com/">Project Dhvani</a>.</p>
+<p><strong>April</strong>: I lead a workshop on carrying out ‘Spatial Analysis Using R’ at the US - International Association for Landscape Ecology regional conference in Chicago. All materials for the workshop are <a href="https://github.com/vjjan91/SpatialAnalysisinR">available here</a>.</p>
+<div class="floatting">
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="figs/gsas-spotlight.jpeg" width="30%" style="float:right; padding:10px" /></p>
+</div>
+<p><strong>March</strong>: The Graduate School of Arts and Sciences at Columbia University interviewed me for the Student Spotlight series. You can find the <a href="https://www.gsas.columbia.edu/news/vijay-ramesh-phd-candidate-ecology-evolution-and-environmental-biology">entire transcript here</a>.</p>
+</div>
+<h3 id="section-7">2017</h3>
+<p><strong>October</strong>: I presented the results of my Master’s thesis at the Student Conference in Conservation Science, New York and was awarded ‘Best Talk for Best Use of Quantitative Methods in Conservation Research’. <strong>Click on the image below to view the talk</strong>.</p>
+<p><a href="https://www.youtube.com/watch?v=G9OlKMISv_A" title="SCCS-NY 2017: Best Talk"><img src="https://img.youtube.com/vi/G9OlKMISv_A/0.jpg" alt="SCCS-NY 2017: Best Talk" /></a></p>
+<p><strong>September</strong>: I co-authored a publication on incorporating conflict resolution theory and practice in the Ecuadorian Amazon in the journal, <em>Conflict Resolution Quarterly</em>. This was a fun project that emerged from a class I took as a Master’s student. Please visit the publications page to access the same.</p>
+<p><strong>April</strong>: My master’s thesis co-authored with Trisha Gopalakrishna, Sahas Barve and Don J Melnick just got published in <em>Biological Conservation</em>. We show that ranges have been overestimated by BirdLife International (BLI) for 17 of the 18 endemic birds examined and thereby, inflating the threat levels on the IUCN Red List. Please visit the publications page to access the same.</p>
+<p><strong>January</strong>: I will starting my Ph.D. in the Fall, at the Department of Ecology, Evolution, and Environmental Biology (E3B), Columbia University. I was awared the Dean’s fellowship to pursue my doctoral education.</p>
+<h3 id="section-8">2016</h3>
+<div class="floatting">
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="figs/cary-logo.png" width="30%" style="float:right; padding:10px" /></p>
+</div>
+<p><strong>June</strong>: I joined the Cary Institute of Ecosystem Studies as a Spatial and Computational Data Manager, working with <a href="https://www.hanlab.science/">Dr. Barbara Han</a>.</p>
+</div>
+<h3 id="section-9">2015</h3>
+<p><strong>October</strong>: I was awarded the Best Speed Talk award at the Student Conference on Conservation Science, New York. <strong>Click on the image below to view the talk</strong>.</p>
 <div class="layout-chunk" data-layout="l-body">
 
 </div>
 <p><a href="https://www.youtube.com/watch?v=Dm0A4Rm402U" title="SCCS-NY 2015: Best Talk"><img src="https://img.youtube.com/vi/Dm0A4Rm402U/0.jpg" alt="SCCS-NY 2015: Best Talk" /></a></p>
-<div class="floatting">
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="figs/idea-wild.webp" width="30%" style="float:right; padding:10px" /></p>
-</div>
-<p style="color: white">
-.
-</p>
-<p><strong>July</strong>: IDEA WILD is providing me equipment to carry out field work in the Western Ghats.</p>
-</div>
 <div class="floatting">
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="figs/idea-wild.webp" width="30%" style="float:right; padding:10px" /></p>
@@ -1972,7 +2392,7 @@ d-title {
 </p>
 <p><strong>May</strong>: I received the Society of Systematic Biologists Travel Award to attend the Standalone meeting in Michigan. I presented my findings on cryptic diversity within the <em>Indirana</em> genus of frogs.</p>
 </div>
-<h3 id="section-1">2014</h3>
+<h3 id="section-10">2014</h3>
 <p><strong>September</strong>: I started grad school in the fall of 2014 at Columbia University. I will be majoring in Conservation biology and expect to graduate in May 2016.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
