@@ -31,19 +31,15 @@ d-title {
 }
 ```
 
-<p style="color: white">.  </p> 
-
-## Peer-reviewed       
-
-### Works in progress    
+### *Works in progress*     
 
 Ramesh, Vijay, Srivathsa, Meghana, Hariharan, Priyanka, Symes, Laurel. *Current stage: Analysis*. __Diurnal variation in avian vocal activity across a gradient of forest regeneration__.  
 
-Ramesh, Vijay, Hariharan, Priyanka, Robin, VV, Symes, Laurel. *Current stage: Analysis*. __Abundance is highly correlated with vocal activity across a community of tropical birds__.  
+Ramesh, Vijay, Hariharan, Priyanka, Symes, Laurel. *Current stage: Analysis*. __Abundance is highly correlated with vocal activity across a community of tropical birds__.  
 
 Ramesh, Vijay, Akshay, VA, Chandrasekar, S, Gupte, Pratik Rajan, Rajan, Amrutha, Mohan, Ashwini V, Mohanraj, S, Robin, VV, Tingley, Morgan W, DeFries, Ruth S. *Current stage: Writing*. __Historical resurveys of birds reveal range shifts along a tropical montane gradient in the Western Ghats__.   
 
-### Published articles  
+### *Peer-reviewed publications* 
 
 Menon, Tarun, Ramesh, Vijay, Barve, Sahas. __Himalayan birds that show the greatest elevational shifts remain within the narrowest thermal regimes__. 2023. Global Ecology and Biogeography. [Download PDF here](files/2023-menon et al-geb.pdf). [Code and analysis here](https://github.com/vjjan91/elevMigration).  
 *Media coverage*: [Mongabay](https://india.mongabay.com/2024/04/understanding-the-elevational-movements-of-himalayan-birds-to-improve-conservation-efforts/).  
@@ -77,7 +73,7 @@ Ramesh, Vijay, Gopalakrishna, Trisha, Barve, Sahas, Melnick, Don J. 2017. __Fine
 Ramesh, Vijay, Gopalakrishna, Trisha, Barve, Sahas, Melnick, Don J. 2017. __IUCN greatly underestimates threat levels of endemic birds in the Western Ghats.__ Biological Conservation. [__Download PDF here__](files/2017-ramesh et al-biolcons.pdf).    
 *Media coverage*: [Mongabay](https://news.mongabay.com/2017/04/overestimated-range-maps-used-for-endemic-birds-in-indias-western-ghats-lead-to-underestimated-threats-study-finds/), [FactorDaily](https://archive.factordaily.com/western-ghats-birds-more-endangered-vijay-ramesh-study/), [EurekAlert](https://www.eurekalert.org/news-releases/666400), [EarthWise](https://earthwiseradio.org/2017/06/mapping-risk/), [Phys.Org](https://phys.org/news/2017-04-extinction-species-vastly-underestimated.html), [The Hindu](https://www.thehindu.com/sci-tech/energy-and-environment/a-shrinking-home-for-endemic-birds/article18230258.ece), [Columbia NewsRoom](https://news.columbia.edu/news/extinction-risk-many-species-vastly-underestimated-study-suggests), [HindustanTimes](https://www.hindustantimes.com/mumbai-news/rare-birds-in-maharashtra-s-western-ghats-under-greater-threat-than-thought-study/story-IAA8nWdWB79SiIuKB5JePL.html), [Indian Express](https://indianexpress.com/article/explained/18-birds-of-the-ghats-an-argument-over-the-extent-of-threat-they-face-4637923/), [Bangalore Mirror](https://bangaloremirror.indiatimes.com/bangalore/others/hills-may-soon-be-featherless/articleshow/58483065.cms), [El Pais](https://elpais.com/elpais/2017/06/09/ciencia/1497000881_503164.html#?ref=rss&format=simple&link=link), [Times of India](https://timesofindia.indiatimes.com/city/kochi/international-union-for-conservation-of-nature-wrong-on-endemic-birds-study/articleshow/59295685.cms).  
 
-## Popular science     
+### *Popular science publications*      
 
 Hari Haran, Priyanka and Ramesh, Vijay. [__Remembering the Magic of Natural History Museums - and Why We Need Them__](https://science.thewire.in/environment/india-natural-history-museums-digitisation-research/). 2020. The Wire.    
 
