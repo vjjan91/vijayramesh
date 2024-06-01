@@ -38,7 +38,6 @@ Bioacoustics offers us a unique opportunity to study wildlife and their environm
 
 All acoustic code and analyses can be accessed by visiting this [GitHub repository](https://github.com/vjjan91).  
 
-<p style="color: white">.  </p>
 ```{r, layout = "l-page", warning =FALSE}
 library(mapview)
 library(leafpop)
@@ -47,7 +46,7 @@ library(sf)
 locations <- read.csv("list-of-sites-for-map.csv") %>%
   st_as_sf(., coords = c("Longitude","Latitude")) %>%
   `st_crs<-`(4326)
-mapviewOptions(basemaps = c("CyclOSM","OpenStreetMap.DE","CartoDB.Positron"))
+mapviewOptions(basemaps = c("CartoDB.Positron","OpenStreetMap.DE"))
 mapview(locations, popup = popupTable(locations, zcol = c("Project","Description")))
 ```
 
@@ -89,7 +88,7 @@ knitr::include_graphics("slender-loris.png")
 
 ### AI and bioacoustics  
 
-For the last few years, we have been carefully annotating acoustic data from the Western Ghats biodiversity hotspot. I am now working with scientists at [BirdNET](https://birdnet.cornell.edu/), [Google](https://scholar.google.com/citations?user=M1nVuUgAAAAJ&hl=en), and [IISER-Tirupati](https://www.skyisland.in/) to develop automated algorithms that can detect bird species across the Western Ghats.[Please visit our Kaggle competition here](https://www.kaggle.com/competitions/birdclef-2024/).
+For the last few years, we have been carefully annotating acoustic data from the Western Ghats biodiversity hotspot. I am now working with scientists at [BirdNET](https://birdnet.cornell.edu/), [Google](https://scholar.google.com/citations?user=M1nVuUgAAAAJ&hl=en), and [IISER-Tirupati](https://www.skyisland.in/) to develop automated algorithms that can detect bird species across the Western Ghats. [Please visit our Kaggle competition here](https://www.kaggle.com/competitions/birdclef-2024/).
 
 ```{r}
 knitr::include_graphics("birdnet.png")

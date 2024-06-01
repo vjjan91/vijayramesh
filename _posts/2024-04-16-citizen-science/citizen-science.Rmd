@@ -1,7 +1,7 @@
 ---
 title: "Citizen Science"
 description: |   
-  I rely on citizen science datasets to model species distributions.    
+  I use citizen science datasets to model species distributions.    
 preview: "eBird.png"
 output:
   distill::distill_article:
