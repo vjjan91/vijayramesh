@@ -79,7 +79,7 @@ A key feature of your website is not only content, but structuring how this cont
 -   Push the commits/changes online to GitHub, since the .html files have been rendered and vola, you will now see your website deployed at the `github.io` link!  
 
 -   If you have a custom domain, do type in the name of your custom domain in the tab in Settings-\>Pages in your github repository. Many users purchase a domain and transfer their git pages to that domain. A free resource that I recommend is the use of an `rbind/io` subdomain, thanks to the `rbind` community, which offers a free subdomain to R users. Please see this [link for more instructions](https://support.rbind.io/about/). Essentially, you need to raise an issue on their git repository requesting an `rbind.io` subdomain. For example, the request I made is [here](https://github.com/rbind/support/issues/950). I essentially wanted a website that has my full name, followed by the `rbind.io` subdomain.        
-## What about blog posts??  
+### What about blog posts??  
 
 -  Now, how do we include a `blog` page in your website. One of the cool things about using `distill` is that by simply using a function called `create_post`, we can essentially add blog posts. What this function does is create a directory called `_posts`, where each of your blog posts are included. These posts can be then be linked to any .Rmd file that are part of your main tabs (whether it's your blogpage or Research page or People page etc.). I find it useful because I can keep certain pages as overview pages and let the viewer/visitor explore in detail if they wish to. For example, I basically made my Research page an overview page and added blog posts for each of my research themes.   
 
