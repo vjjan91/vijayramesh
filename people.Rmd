@@ -145,8 +145,6 @@ knitr::include_graphics("figs/amrutha-rajan-profile.jpg")
 <p style="color: white">.  </p>
 <p style="color: #033F63">**Amrutha Rajan**</p>    
  
-*Current: Project Assistant, Keystone Foundation*  
-  
-Amrutha worked as a research assistant (2020-2022) digitizing historical land cover data and carrying out fieldwork across the Nilgiris.  
+Amrutha was as a research assistant (2020-2022) on a historical resurvey project across the Nilgiris.  
 :::    
 
