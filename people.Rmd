@@ -32,24 +32,32 @@ d-title {
 # Upload headshot here 
 knitr::include_graphics("figs/vijay-ramesh-headshot.jpg")
 ```
-<p style="color: white">.  </p>  
- 
+<p style="color: white">.  </p>
 <p style="color: #033F63">**Vijay Ramesh**</p>    
 
-[Rose Postdoctoral Fellow](https://www.birds.cornell.edu/home/staff/vijay-ramesh/)  
+[Rose Postdoctoral Fellow](https://www.birds.cornell.edu/home/staff/vijay-ramesh/)    
 K. Lisa Yang Center for Conservation Bioacoustics  
 Cornell Lab of Ornithology  
 
-[Visiting Postdoctoral Fellow](https://www.skyisland.in/)      
-Indian Institute of Science Education and Research, Tirupati, India    
+[Download CV]("files/ramesh-vijay-cv-feb-2024.pdf")
+::: 
 
-[Download CV](files/ramesh-vijay-cv-feb-2024.pdf)
-:::  
-  
-## Mentees (current and former)  
+### Collaborators and funding 
+
+I believe that science is a team-effort and none of the work I do would be possible without collaborations and partnerships. I am also thankful for all the funding sources that have made my work possible. A few select partners and funding sources can be found below. 
+
+```{r}
+knitr::include_graphics("figs/collab-funders.png")
+```
+
+To learn more about the work carried out by my collaborators (current and former), please visit their work by clicking on their names (listed in no particular order): [Priyanka Hari Haran](https://tropicos.netlify.app/author/priyanka-hari-haran/), [Laurel Symes](https://www.birds.cornell.edu/ccb/laurel-b-symes-ph-d/), [Pratik Rajan Gupte](https://scholar.google.nl/citations?user=ve_IGT8AAAAJ&hl=en), [VV Robin](https://www.skyisland.in/), [Morgan W. Tingley](https://www.morgantingley.com/), [Ruth S DeFries](https://www.ruthdefries.e3b.columbia.edu/ruth-defries/), [Divya Mudappa](https://www.ncf-india.org/author/646399/divya-mudappa), [T R Shankar Raman](https://www.ncf-india.org/author/646400/t-r-shankar-raman), [Anita Varghese](https://keystone-foundation.org/team/), [Sahas Barve](http://www.sahasbarve.com/), [Tarun Menon](https://tarunmenon.wordpress.com/), [Sarab Sethi](https://www.imperial.ac.uk/people/sarab.sethi), [Pooja Choksi](https://poojachoksi.weebly.com/), [Sarika Khanwilkar](https://www.linkedin.com/in/sarikakhanwilkar/?originalSubdomain=in), [Vijayakumar S P](https://www.researchgate.net/profile/Vijayakumar-S-P), [Kartik Shanker](https://kslab.weebly.com/), [Nature Conservation Foundation](https://www.ncf-india.org/), [Keystone Foundation](https://keystone-foundation.org/), [Black Baza Coffee Co.](https://store.blackbazacoffee.com/)     
+
+### Mentees  
+
+Current and former mentees and their research are highlighted below:      
 
 ::: {.floatting}
-```{r, out.width = "300px", out.extra='style="float:left; padding:20px"'}
+```{r, out.width = "250px", out.extra='style="float:left;padding:20px"'}
 
 # Upload headshot here 
 knitr::include_graphics("figs/faizee-profile.jpg")
@@ -57,15 +65,12 @@ knitr::include_graphics("figs/faizee-profile.jpg")
 <p style="color: white">.  </p>
 <p style="color: #033F63">**Faizee Ali Khan**</p>    
 
-[Graduate mentee](https://www.skyisland.in/faizee.html)  
-Indian Institute of Science Education and Research, Tirupati, India  
-
 Faizee is co-mentored by Vijay & [Dr. VV Robin](https://www.skyisland.in/robin.html) for his master's degree. His research investigates the drivers of seasonal elevational migration across bird communities in the Western Ghats.  
 :::  
   
-  
+
 ::: {.floatting}
-```{r, out.width = "300px", out.extra='style="float:left; padding:20px"'}
+```{r, out.width = "250px", out.extra='style="float:left; padding:20px"'}
 
 # Upload headshot here 
 knitr::include_graphics("figs/swathi-profile.jpeg")
@@ -73,14 +78,12 @@ knitr::include_graphics("figs/swathi-profile.jpeg")
 <p style="color: white">.  </p>
 <p style="color: #033F63">**Swathi C S**</p>    
 
-Graduate mentee   
-  
 Swathi is co-mentored by [Priyanka Hari Haran](https://tropicos.netlify.app/author/priyanka-hari-haran/) and is leading a collaborative study that tests the effects of habitat fragmentation on song characteristics of the Malabar Whistling Thrush.  
 :::  
 
 
 ::: {.floatting}
-```{r, out.width = "300px", out.extra='style="float:left; padding:20px"'}
+```{r, out.width = "250px", out.extra='style="float:left; padding:20px"'}
 
 # Upload headshot here 
 knitr::include_graphics("figs/pavithra-profile.jpg")
@@ -88,14 +91,12 @@ knitr::include_graphics("figs/pavithra-profile.jpg")
 <p style="color: white">.  </p>
 <p style="color: #033F63">**Pavithra Sundar**</p>    
 
-Graduate mentee   
-  
 Pavithra is testing the acoustic niche partitioning hypothesis across a bird community in the Anamalai hills of the Western Ghats.      
 :::
 
 
 ::: {.floatting}
-```{r, out.width = "300px", out.extra='style="float:left; padding:20px"'}
+```{r, out.width = "250px", out.extra='style="float:left; padding:20px"'}
 
 # Upload headshot here 
 knitr::include_graphics("figs/vandana-profile.jpg")
@@ -103,14 +104,12 @@ knitr::include_graphics("figs/vandana-profile.jpg")
 <p style="color: white">.  </p>
 <p style="color: #033F63">**Vandana Kannan**</p>    
 
-[Wildlife Biologist, Keystone Foundation](https://keystone-foundation.org/team/)   
-  
-Vandana is examining the acoustic ecology of the Grey slender loris.       
+Vandana is examining the acoustic ecology of the Grey slender loris.      
 :::
 
 
 ::: {.floatting}
-```{r, out.width = "300px", out.extra='style="float:left; padding:20px"'}
+```{r, out.width = "250px", out.extra='style="float:left; padding:20px"'}
 
 # Upload headshot here 
 knitr::include_graphics("figs/meghana-srivathsa-profile.jpg")
@@ -118,14 +117,12 @@ knitr::include_graphics("figs/meghana-srivathsa-profile.jpg")
 <p style="color: white">.  </p>
 <p style="color: #033F63">**Meghana Srivathsa**</p>    
 
-Research assistant (2021 - 2023)     
-  
-Meghana worked on numerous bioacoustics projects across the Anamalai hills of the Western Ghats. These projects involved listening to over 150 hours of audio recordings and manually annotating the presence/absence of every bird species in those recordings. 
+Meghana worked as a research assistant (2021 - 2023) on numerous bioacoustics projects, with a focus on birds of the Western Ghats.
 :::
   
   
 ::: {.floatting}
-```{r, out.width = "300px", out.extra='style="float:left; padding:20px"'}
+```{r, out.width = "250px", out.extra='style="float:left; padding:20px"'}
 
 # Upload headshot here 
 knitr::include_graphics("figs/akshay-anand-profile.jpg")
@@ -133,52 +130,23 @@ knitr::include_graphics("figs/akshay-anand-profile.jpg")
 <p style="color: white">.  </p>
 <p style="color: #033F63">**Akshay V Anand**</p>    
 
-Research assistant (2020 - 2022)  
 *Current: Graduate Student, University of Florida*  
   
-Akshay was a research assistant on a bioacoustics and a historical resurvey project across the Anamalai and the Nilgiri hills of the Western Ghats. He manually annotated acoustic data from the Anamalai hills & carried out extensive fieldwork across the Nilgiri hills.  
+Akshay worked as a research assistant (2020-2022) on a bioacoustics and a historical resurvey project across the Anamalai and the Nilgiri hills of the Western Ghats.
 :::
      
       
 ::: {.floatting}
-```{r, out.width = "300px", out.extra='style="float:left; padding:20px"'}
+```{r, out.width = "250px", out.extra='style="float:left; padding:20px"'}
 
 # Upload headshot here 
 knitr::include_graphics("figs/amrutha-rajan-profile.jpg")
 ```
 <p style="color: white">.  </p>
 <p style="color: #033F63">**Amrutha Rajan**</p>    
-
-Research assistant (2020 - 2022)  
+ 
 *Current: Project Assistant, Keystone Foundation*  
   
-Amrutha digitized historical land cover data and carrying out fieldwork across the Nilgiris.  
+Amrutha worked as a research assistant (2020-2022) digitizing historical land cover data and carrying out fieldwork across the Nilgiris.  
 :::    
-
-
-## Collaborators  
-
-I believe that science is a team-effort and none of the work I do would be possible without collaborations and partnerships. Below, I have listed current and former collaborators and mentors (in no particular order):   
-
-[Priyanka Hari Haran](https://tropicos.netlify.app/author/priyanka-hari-haran/)   
-[Laurel Symes](https://www.birds.cornell.edu/ccb/laurel-b-symes-ph-d/)    
-[Pratik Rajan Gupte](https://scholar.google.nl/citations?user=ve_IGT8AAAAJ&hl=en)    
-[VV Robin](https://www.skyisland.in/)    
-[Morgan W. Tingley](https://www.morgantingley.com/)    
-[Ruth S DeFries](https://www.ruthdefries.e3b.columbia.edu/ruth-defries/)    
-[Divya Mudappa](https://www.ncf-india.org/author/646399/divya-mudappa)    
-[T R Shankar Raman](https://www.ncf-india.org/author/646400/t-r-shankar-raman)    
-[Anita Varghese](https://keystone-foundation.org/team/)    
-[VA Akshay](https://scholar.google.com/citations?user=Kw8YWeMAAAAJ&hl=en)    
-[Sahas Barve](http://www.sahasbarve.com/)    
-[Tarun Menon](https://tarunmenon.wordpress.com/)    
-[Sarab Sethi](https://www.imperial.ac.uk/people/sarab.sethi)    
-[Pooja Choksi](https://poojachoksi.weebly.com/)    
-[Sarika Khanwilkar](https://www.linkedin.com/in/sarikakhanwilkar/?originalSubdomain=in)    
-[Vijayakumar S P](https://www.researchgate.net/profile/Vijayakumar-S-P)    
-[Kartik Shanker](https://kslab.weebly.com/)    
-
-[Nature Conservation Foundation](https://www.ncf-india.org/)  
-[Keystone Foundation](https://keystone-foundation.org/)  
-[Black Baza Coffee Co.](https://store.blackbazacoffee.com/)   
 
