@@ -32,5 +32,9 @@ d-title {
 .posts-list .post-preview .thumbnail { 
     width: 50%; 
 }
-```
 
+/* I made a modification to exclude the title of this .Rmd being displayed in the webpage */
+.posts-list .posts-list-caption {
+    display: none;
+}
+```
