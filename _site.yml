@@ -4,7 +4,7 @@ description: |
   My personal website
 base_url: https://vijayramesh.rbind.io/
 output_dir: "docs" # where the .html files that are created following site rendering are stored & later used by GitHub for publishing
-#theme: theme.css
+theme: theme.css
 navbar:
   right:
     - text: "Home"
@@ -17,7 +17,7 @@ navbar:
       href: news.html
     - text: "Publications"
       href: publications.html
-    - icon: fa-brands fa-google-scholar
+    - icon: ai ai-google-scholar fa-lg
       href: https://scholar.google.com/citations?user=wDZCMlMAAAAJ
     - icon: fab fa-github
       href: https://github.com/vjjan91/vijayramesh
