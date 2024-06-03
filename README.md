@@ -1,4 +1,4 @@
-## [My personal website](https://vijayramesh.rbind.io/)
+## [My personal website](https://www.vijayramesh.com/)
 
 In this README, I will outline the steps that I have taken to build and deploy my personal website. All the materials that are presented here have been adapted from existing git repositories & examples created. A few noteworthy examples include [Dr. Allison Horst's distill template](https://github.com/allisonhorst/meds-distill-template), [Dr. Silvia Canelon's webpage](https://silviacanelon.com/) and [Dr. Alison Hill's webpage and code](https://www.apreshill.com/about/).   
 
@@ -78,7 +78,9 @@ A key feature of your website is not only content, but structuring how this cont
 
 -   Push the commits/changes online to GitHub, since the .html files have been rendered and vola, you will now see your website deployed at the `github.io` link!  
 
--   If you have a custom domain, do type in the name of your custom domain in the tab in Settings-\>Pages in your github repository. Many users purchase a domain and transfer their git pages to that domain. A free resource that I recommend is the use of an `rbind/io` subdomain, thanks to the `rbind` community, which offers a free subdomain to R users. Please see this [link for more instructions](https://support.rbind.io/about/). Essentially, you need to raise an issue on their git repository requesting an `rbind.io` subdomain. For example, the request I made is [here](https://github.com/rbind/support/issues/950). I essentially wanted a website that has my full name, followed by the `rbind.io` subdomain.        
+-   If you have a custom domain, do type in the name of your custom domain in the tab in Settings-\>Pages in your github repository. Many users purchase a domain and transfer their git pages to that domain. Personally, I bought a GoDaddy domain service and hosted it from Git Pages, by following instructions provided [here](https://carlosroso.com/gh-pages-with-godaddy-domain/).   
+
+-   If you are looking for a free resources, I recommend the use of an `rbind/io` subdomain, thanks to the `rbind` community, which offers a free subdomain to R users. Please see this [link for more instructions](https://support.rbind.io/about/). Essentially, you need to raise an issue on their git repository requesting an `rbind.io` subdomain. For example, the request I made is [here](https://github.com/rbind/support/issues/950). I essentially wanted a website that has my full name, followed by the `rbind.io` subdomain.        
 ### What about blog posts??  
 
 -  Now, how do we include a `blog` page in your website. One of the cool things about using `distill` is that by simply using a function called `create_post`, we can essentially add blog posts. What this function does is create a directory called `_posts`, where each of your blog posts are included. These posts can be then be linked to any .Rmd file that are part of your main tabs (whether it's your blogpage or Research page or People page etc.). I find it useful because I can keep certain pages as overview pages and let the viewer/visitor explore in detail if they wish to. For example, I basically made my Research page an overview page and added blog posts for each of my research themes.   
