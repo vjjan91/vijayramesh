@@ -2,7 +2,7 @@ name: "vijayramesh"
 title: "Vijay Ramesh" # this will appear in the top left corner of your header
 description: |
   My personal website
-base_url: https://vijayramesh.rbind.io/
+base_url: https://vijayramesh.com/
 output_dir: "docs" # where the .html files that are created following site rendering are stored & later used by GitHub for publishing
 theme: theme.css
 navbar:
@@ -20,7 +20,7 @@ navbar:
     - icon: ai ai-google-scholar fa-lg
       href: https://scholar.google.com/citations?user=wDZCMlMAAAAJ
     - icon: fab fa-github
-      href: https://github.com/vjjan91/vijayramesh
+      href: https://github.com/vjjan91
   search: false # to remove the search box
 
 output:
