@@ -1,4 +1,4 @@
-## [My personal website](https://www.vijayramesh.com/)
+## [My personal website](https://vijayramesh.com/)
 
 In this README, I will outline the steps that I have taken to build and deploy my personal website. All the materials that are presented here have been adapted from existing git repositories & examples created. A few noteworthy examples include [Dr. Allison Horst's distill template](https://github.com/allisonhorst/meds-distill-template), [Dr. Silvia Canelon's webpage](https://silviacanelon.com/) and [Dr. Alison Hill's webpage and code](https://www.apreshill.com/about/).   
 
