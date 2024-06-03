@@ -20,7 +20,7 @@ navbar:
     - icon: ai ai-google-scholar fa-lg
       href: https://scholar.google.com/citations?user=wDZCMlMAAAAJ
     - icon: fab fa-github
-      href: https://github.com/vjjan91
+      href: https://github.com/vjjan91/vijayramesh
   search: false # to remove the search box
 
 output:
