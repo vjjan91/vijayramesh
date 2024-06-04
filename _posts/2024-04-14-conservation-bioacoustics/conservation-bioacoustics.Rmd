@@ -50,9 +50,9 @@ mapviewOptions(basemaps = c("CartoDB.Positron","OpenStreetMap.DE"))
 mapview(locations, popup = popupTable(locations, zcol = c("Project","Description")))
 ```
 
-### Restoration Bioacoustics  
+### Restoration bioacoustics  
 
-I am currently working in the Anamalai hills (in collaboration with the [Nature Conservation Foundation](https://www.ncf-india.org/) to monitor the recovery of fauna across restored forest fragments.
+I am currently working in the Anamalai hills in collaboration with the [Nature Conservation Foundation](https://www.ncf-india.org/) to monitor the recovery of fauna across restored forest fragments.
 
 ```{r, fig.cap = "Work published in [Biological Conservation](https://www.sciencedirect.com/science/article/pii/S0006320723001726) showed that active restoration helped increase bird species diversity compared to natural regeneration. Pictured here is an illustration of bird communities across a naturally regenerating (NR), actively restored (AR) and benchmark forests (BM) in the Anamalai hills, Western Ghats. Artist: Chayant Gonsalves. Bonus points if you can spot the audio recorder!"}
 
@@ -102,5 +102,5 @@ knitr::include_graphics("birdnet.png")
 # Upload image here 
 knitr::include_graphics("project-dhvani-logo.png")
 ```
-Pooja Choksi, Sarika Khanwilkar and I co-founded [Project Dhvani](http://projectdhvani.weebly.com/) in 2018, and we are a research collaborative that uses sound to monitor biodiversity and inform resource management. To learn more about the projects we do, please visit our site by clicking on the title.  
+Pooja Choksi, Sarika Khanwilkar and I co-founded [Project Dhvani](http://projectdhvani.weebly.com/) in 2018, and we are a research collaborative that uses sound to monitor biodiversity and inform resource management. Click [here](http://projectdhvani.weebly.com/) to learn more.
 :::  

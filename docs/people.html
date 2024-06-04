@@ -107,7 +107,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","output"]}},"value":[{"type":"character","attributes":{},"value":["People"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_float"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[false]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","output"]}},"value":[{"type":"character","attributes":{},"value":["People"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_float"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[true]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2224,6 +2224,16 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#collaborators" id="toc-collaborators">Collaborators</a></li>
+<li><a href="#mentees" id="toc-mentees">Mentees</a></li>
+<li><a href="#funding" id="toc-funding">Funding</a></li>
+</ul>
+</nav>
+</div>
 <div class="layout-chunk" data-layout="l-body">
 <style type="text/css">
 /* Unlike the typical distill websites shown in the examples online, I did not want a title YAML/text in the beginning and the first thing I wanted was an image. So this function below, borrowed from a google search, gets rid of the requirement of a title & uses css to do the same. You can delete this code chunk if you want to include a title in your website */
@@ -2231,6 +2241,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 d-title {
     display: none;
   }
+
+/*add a custom line of code to include a bit more space at the top for the table of contents*/
+.d-contents nav h3 {
+    margin-top: 1em;
+}
 
 /* remove excess margin space around figures */
 
@@ -2255,12 +2270,12 @@ K. Lisa Yang Center for Conservation Bioacoustics<br />
 Cornell Lab of Ornithology</p>
 <p><a href="%22files/ramesh-vijay-cv-feb-2024.pdf%22">Download CV</a></p>
 </div>
-<h3 id="collaborators-and-funding">Collaborators and funding</h3>
-<p>I believe that science is a team-effort and none of the work I do would be possible without collaborations and partnerships. I am also thankful for all the funding sources that have made my work possible. A few select partners and funding sources can be found below.</p>
+<h3 id="collaborators">Collaborators</h3>
+<p>I believe that science is a team-effort and none of the work I do would be possible without collaborations and partnerships. To learn more about the work carried out by my collaborators (current and former), please visit their work by clicking on their names (listed in no particular order): <a href="https://tropicos.netlify.app/author/priyanka-hari-haran/">Priyanka Hari Haran</a>, <a href="https://www.birds.cornell.edu/ccb/laurel-b-symes-ph-d/">Laurel Symes</a>, <a href="https://scholar.google.nl/citations?user=ve_IGT8AAAAJ&amp;hl=en">Pratik Rajan Gupte</a>, <a href="https://www.skyisland.in/">VV Robin</a>, <a href="https://www.morgantingley.com/">Morgan W. Tingley</a>, <a href="https://www.ruthdefries.e3b.columbia.edu/ruth-defries/">Ruth S DeFries</a>, <a href="https://www.ncf-india.org/author/646399/divya-mudappa">Divya Mudappa</a>, <a href="https://www.ncf-india.org/author/646400/t-r-shankar-raman">T R Shankar Raman</a>, <a href="https://keystone-foundation.org/team/">Anita Varghese</a>, <a href="http://www.sahasbarve.com/">Sahas Barve</a>, <a href="https://tarunmenon.wordpress.com/">Tarun Menon</a>, <a href="https://www.imperial.ac.uk/people/sarab.sethi">Sarab Sethi</a>, <a href="https://poojachoksi.weebly.com/">Pooja Choksi</a>, <a href="https://www.linkedin.com/in/sarikakhanwilkar/?originalSubdomain=in">Sarika Khanwilkar</a>, <a href="https://www.researchgate.net/profile/Vijayakumar-S-P">Vijayakumar S P</a>, <a href="https://kslab.weebly.com/">Kartik Shanker</a>, <a href="https://www.ncf-india.org/">Nature Conservation Foundation</a>, <a href="https://keystone-foundation.org/">Keystone Foundation</a>, <a href="https://store.blackbazacoffee.com/">Black Baza Coffee Co.</a>.</p>
+<p>I also actively collaborate with non-profit organizations, academic institutions and for-profit social enterprises. A few select partner organizations can be seen below.</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="figs/collab-funders.png" width="1792" /></p>
+<p><img src="figs/collaborators.png" width="1622" /></p>
 </div>
-<p>To learn more about the work carried out by my collaborators (current and former), please visit their work by clicking on their names (listed in no particular order): <a href="https://tropicos.netlify.app/author/priyanka-hari-haran/">Priyanka Hari Haran</a>, <a href="https://www.birds.cornell.edu/ccb/laurel-b-symes-ph-d/">Laurel Symes</a>, <a href="https://scholar.google.nl/citations?user=ve_IGT8AAAAJ&amp;hl=en">Pratik Rajan Gupte</a>, <a href="https://www.skyisland.in/">VV Robin</a>, <a href="https://www.morgantingley.com/">Morgan W. Tingley</a>, <a href="https://www.ruthdefries.e3b.columbia.edu/ruth-defries/">Ruth S DeFries</a>, <a href="https://www.ncf-india.org/author/646399/divya-mudappa">Divya Mudappa</a>, <a href="https://www.ncf-india.org/author/646400/t-r-shankar-raman">T R Shankar Raman</a>, <a href="https://keystone-foundation.org/team/">Anita Varghese</a>, <a href="http://www.sahasbarve.com/">Sahas Barve</a>, <a href="https://tarunmenon.wordpress.com/">Tarun Menon</a>, <a href="https://www.imperial.ac.uk/people/sarab.sethi">Sarab Sethi</a>, <a href="https://poojachoksi.weebly.com/">Pooja Choksi</a>, <a href="https://www.linkedin.com/in/sarikakhanwilkar/?originalSubdomain=in">Sarika Khanwilkar</a>, <a href="https://www.researchgate.net/profile/Vijayakumar-S-P">Vijayakumar S P</a>, <a href="https://kslab.weebly.com/">Kartik Shanker</a>, <a href="https://www.ncf-india.org/">Nature Conservation Foundation</a>, <a href="https://keystone-foundation.org/">Keystone Foundation</a>, <a href="https://store.blackbazacoffee.com/">Black Baza Coffee Co.</a></p>
 <h3 id="mentees">Mentees</h3>
 <p>Current and former mentees and their research are highlighted below:</p>
 <div class="floatting">
@@ -2347,6 +2362,11 @@ Cornell Lab of Ornithology</p>
 <strong>Amrutha Rajan</strong>
 </p>
 <p>Amrutha was as a research assistant (2020-2022) on a historical resurvey project across the Nilgiris.</p>
+</div>
+<h3 id="funding">Funding</h3>
+<p>I am thankful for all the funding sources that have made my work possible. A few select funding sources can be found below.</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="figs/funding.png" width="2005" /></p>
 </div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->

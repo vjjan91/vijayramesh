@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
-    <loc>https://vijayramesh.rbind.io/</loc>
-    <lastmod>2024-05-30T14:13:55-04:00</lastmod>
+    <loc>https://vijayramesh.com/</loc>
+    <lastmod>2024-06-04T10:55:46-04:00</lastmod>
   </url>
   <url>
-    <loc>https://vijayramesh.rbind.io/news.html</loc>
-    <lastmod>2024-05-30T14:59:23-04:00</lastmod>
+    <loc>https://vijayramesh.com/news.html</loc>
+    <lastmod>2024-06-04T11:44:29-04:00</lastmod>
   </url>
   <url>
-    <loc>https://vijayramesh.rbind.io/people.html</loc>
-    <lastmod>2024-06-01T17:54:27-04:00</lastmod>
+    <loc>https://vijayramesh.com/people.html</loc>
+    <lastmod>2024-06-04T11:44:13-04:00</lastmod>
   </url>
   <url>
-    <loc>https://vijayramesh.rbind.io/publications.html</loc>
-    <lastmod>2024-06-01T17:55:41-04:00</lastmod>
+    <loc>https://vijayramesh.com/publications.html</loc>
+    <lastmod>2024-06-04T11:44:25-04:00</lastmod>
   </url>
   <url>
-    <loc>https://vijayramesh.rbind.io/research.html</loc>
-    <lastmod>2024-06-03T13:46:18-04:00</lastmod>
+    <loc>https://vijayramesh.com/research.html</loc>
+    <lastmod>2024-06-03T17:16:00-04:00</lastmod>
   </url>
   <url>
-    <loc>https://vijayramesh.rbind.io/posts/2024-04-14-conservation-bioacoustics/</loc>
-    <lastmod>2024-06-01T16:22:49-04:00</lastmod>
+    <loc>https://vijayramesh.com/posts/2024-04-14-conservation-bioacoustics/</loc>
+    <lastmod>2024-06-04T11:41:23-04:00</lastmod>
   </url>
   <url>
-    <loc>https://vijayramesh.rbind.io/posts/2024-04-15-historical-ecology/</loc>
+    <loc>https://vijayramesh.com/posts/2024-04-15-historical-ecology/</loc>
     <lastmod>2024-06-01T16:23:35-04:00</lastmod>
   </url>
   <url>
-    <loc>https://vijayramesh.rbind.io/posts/2024-04-16-citizen-science/</loc>
+    <loc>https://vijayramesh.com/posts/2024-04-16-citizen-science/</loc>
     <lastmod>2024-06-01T16:24:38-04:00</lastmod>
   </url>
 </urlset>

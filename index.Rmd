@@ -25,13 +25,13 @@ d-title {
   }
 ```
 
-```{r, layout="l-screen", fig.cap = "Historical maps, audio recordings and citizen scientist observations of wildlife form an integral part of the research led by Vijay Ramesh."}
+```{r, layout="l-screen"}
 
 knitr::include_graphics("figs/bgd.png")
 ```
 
 ## Welcome!  
 
-I am a postdoctoral research fellow at the [K. Lisa Yang Center for Conservation Bioacoustics, Cornell Lab of Ornithology](https://www.birds.cornell.edu/ccb/). My research is focused on understanding how the environment shapes the ecology and behavior of tropical montane birds. I use an interdisciplinary and collaborative approach that borrows from conservation bioacoustics, community science, and historical ecology.  
+I am a postdoctoral research fellow at the [K. Lisa Yang Center for Conservation Bioacoustics, Cornell Lab of Ornithology](https://www.birds.cornell.edu/ccb/). My research is focused on understanding how the environment shapes the ecology and behavior of tropical montane birds. I use an interdisciplinary and collaborative approach that borrows from conservation bioacoustics, citizen science, and historical ecology.  
 
 **email**: vr292\@cornell.edu   

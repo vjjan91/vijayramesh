@@ -3,8 +3,8 @@ title: "People"
 site: distill::distill_website
 output:
   distill::distill_article:
-    toc: false
-    toc_float: false
+    toc: true
+    toc_float: true
 ---
 
 ```{r setup, include=FALSE}
@@ -17,6 +17,11 @@ knitr::opts_chunk$set(echo = FALSE)
 d-title {
     display: none;
   }
+
+/*add a custom line of code to include a bit more space at the top for the table of contents*/
+.d-contents nav h3 {
+    margin-top: 1em;
+}
 
 /* remove excess margin space around figures */
 
@@ -42,15 +47,15 @@ Cornell Lab of Ornithology
 [Download CV]("files/ramesh-vijay-cv-feb-2024.pdf")
 ::: 
 
-### Collaborators and funding 
+### Collaborators 
 
-I believe that science is a team-effort and none of the work I do would be possible without collaborations and partnerships. I am also thankful for all the funding sources that have made my work possible. A few select partners and funding sources can be found below. 
+I believe that science is a team-effort and none of the work I do would be possible without collaborations and partnerships. To learn more about the work carried out by my collaborators (current and former), please visit their work by clicking on their names (listed in no particular order): [Priyanka Hari Haran](https://tropicos.netlify.app/author/priyanka-hari-haran/), [Laurel Symes](https://www.birds.cornell.edu/ccb/laurel-b-symes-ph-d/), [Pratik Rajan Gupte](https://scholar.google.nl/citations?user=ve_IGT8AAAAJ&hl=en), [VV Robin](https://www.skyisland.in/), [Morgan W. Tingley](https://www.morgantingley.com/), [Ruth S DeFries](https://www.ruthdefries.e3b.columbia.edu/ruth-defries/), [Divya Mudappa](https://www.ncf-india.org/author/646399/divya-mudappa), [T R Shankar Raman](https://www.ncf-india.org/author/646400/t-r-shankar-raman), [Anita Varghese](https://keystone-foundation.org/team/), [Sahas Barve](http://www.sahasbarve.com/), [Tarun Menon](https://tarunmenon.wordpress.com/), [Sarab Sethi](https://www.imperial.ac.uk/people/sarab.sethi), [Pooja Choksi](https://poojachoksi.weebly.com/), [Sarika Khanwilkar](https://www.linkedin.com/in/sarikakhanwilkar/?originalSubdomain=in), [Vijayakumar S P](https://www.researchgate.net/profile/Vijayakumar-S-P), [Kartik Shanker](https://kslab.weebly.com/), [Nature Conservation Foundation](https://www.ncf-india.org/), [Keystone Foundation](https://keystone-foundation.org/), [Black Baza Coffee Co.](https://store.blackbazacoffee.com/).           
+
+I also actively collaborate with non-profit organizations, academic institutions and for-profit social enterprises. A few select partner organizations can be seen below.  
 
 ```{r}
-knitr::include_graphics("figs/collab-funders.png")
+knitr::include_graphics("figs/collaborators.png")
 ```
-
-To learn more about the work carried out by my collaborators (current and former), please visit their work by clicking on their names (listed in no particular order): [Priyanka Hari Haran](https://tropicos.netlify.app/author/priyanka-hari-haran/), [Laurel Symes](https://www.birds.cornell.edu/ccb/laurel-b-symes-ph-d/), [Pratik Rajan Gupte](https://scholar.google.nl/citations?user=ve_IGT8AAAAJ&hl=en), [VV Robin](https://www.skyisland.in/), [Morgan W. Tingley](https://www.morgantingley.com/), [Ruth S DeFries](https://www.ruthdefries.e3b.columbia.edu/ruth-defries/), [Divya Mudappa](https://www.ncf-india.org/author/646399/divya-mudappa), [T R Shankar Raman](https://www.ncf-india.org/author/646400/t-r-shankar-raman), [Anita Varghese](https://keystone-foundation.org/team/), [Sahas Barve](http://www.sahasbarve.com/), [Tarun Menon](https://tarunmenon.wordpress.com/), [Sarab Sethi](https://www.imperial.ac.uk/people/sarab.sethi), [Pooja Choksi](https://poojachoksi.weebly.com/), [Sarika Khanwilkar](https://www.linkedin.com/in/sarikakhanwilkar/?originalSubdomain=in), [Vijayakumar S P](https://www.researchgate.net/profile/Vijayakumar-S-P), [Kartik Shanker](https://kslab.weebly.com/), [Nature Conservation Foundation](https://www.ncf-india.org/), [Keystone Foundation](https://keystone-foundation.org/), [Black Baza Coffee Co.](https://store.blackbazacoffee.com/)     
 
 ### Mentees  
 
@@ -147,4 +152,12 @@ knitr::include_graphics("figs/amrutha-rajan-profile.jpg")
  
 Amrutha was as a research assistant (2020-2022) on a historical resurvey project across the Nilgiris.  
 :::    
+
+### Funding
+
+I am thankful for all the funding sources that have made my work possible. A few select funding sources can be found below. 
+
+```{r}
+knitr::include_graphics("figs/funding.png")
+```
 

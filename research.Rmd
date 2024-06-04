@@ -45,4 +45,4 @@ d-title {
 }
 ```
 <p style="color: white">.  </p>
-Click on each of the research themes below to learn more about specific projects  
+I use an interdisciplinary and collaborative approach that borrows from conservation bioacoustics, historical ecology, and citizen science  
