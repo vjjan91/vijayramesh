@@ -44,5 +44,4 @@ d-title {
     margin-top: 0;
 }
 ```
-<p style="color: white">.  </p>
-I use an interdisciplinary and collaborative approach that borrows from conservation bioacoustics, historical ecology, and citizen science  
+

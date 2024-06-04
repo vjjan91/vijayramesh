@@ -27,7 +27,7 @@ d-title {
 
 ```{r, layout="l-screen"}
 
-knitr::include_graphics("figs/bgd.png")
+knitr::include_graphics("figs/background.png")
 ```
 
 ## Welcome!  
