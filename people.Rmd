@@ -44,7 +44,7 @@ knitr::include_graphics("figs/vijay-ramesh-headshot.jpg")
 K. Lisa Yang Center for Conservation Bioacoustics  
 Cornell Lab of Ornithology  
 
-[Download CV]("files/ramesh-vijay-cv-feb-2024.pdf")
+[Download CV]("files/cv-feb-2024.pdf")
 ::: 
 
 ### Collaborators 
