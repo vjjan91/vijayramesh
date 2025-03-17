@@ -8,7 +8,7 @@ output:
     toc_float: true
 ---
 
-```{r setup, include=FALSE}
+```{r, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
@@ -33,6 +33,8 @@ d-title {
 ```
 
 ### 2024  
+
+__Oct__: I gave a talk entitled 'Colonial-era landscape changes are concomitant with grassland bird species declines over the last century' at the annual meeting of the American Ornithological Society in Estes Park, Colorado. This was also the first conference where I was a reviewer for Talks & Presentations.   
 
 __Aug__: Mongabay India features my work in their podcast - 'Wild Frequencies'. __Click on the image below to listen in__.  
 

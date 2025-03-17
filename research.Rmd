@@ -4,7 +4,7 @@ site: distill::distill_website
 listing: posts
 ---
 
-```{r setup, include=FALSE}
+```{r, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 
 # Learn more about creating websites with Distill at:
@@ -45,3 +45,5 @@ d-title {
 }
 ```
 
+<p style="color: white">.  </p> 
+<p style="text-align: center">Please click on each of the themes below to learn more about my research</p>  

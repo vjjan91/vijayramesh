@@ -1,14 +1,14 @@
 ---
 title: "Conservation Bioacoustics"
 description: |   
-  I use passive acoustic monitoring to study wildlife across multiple geographies. Examples of projects include: quantifying bird vocal activity across habitats, documenting soundscapes in coffee farms, and using AI to carry out automated recognition of bird calls. 
+  I use passive acoustic monitoring to study wildlife across multiple geographies. Examples of projects include: quantifying bird vocal activity across habitats, detecting cryptic primates and using AI to carry out automated recognition of species vocalizations. 
 preview: "2023-biol-cons.png"
 output:
   distill::distill_article:
     toc: true
     toc_float: true
 ---
-```{r setup, include=FALSE}
+```{r, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
@@ -66,15 +66,6 @@ I am currently working in collaboration with the [Keystone Foundation](https://k
 ```{r, fig.cap = "Faizee Ali Khan, a graduate mentee is seen deploying audio recorders in a forest patch in the Nilgiri Hills. On your right are locations where audio recorders have been deployed since January 2024. These recorders, alongside microclimate data loggers, will continuously collect data for an entire day, for months at a stretch. The elevational gradient ranges between 200m to 2400m."}
 
 knitr::include_graphics("faizee-deploying-recorder.png")
-```
-
-### Coffeescapes  
-
-A large proportion of tropical biodiversity exists outside protected areas, often inhabiting agroforests. I am collaborating with [Black Baza Coffee Co.](https://store.blackbazacoffee.com/) to better understand biodiversity in coffee farms.
-
-```{r, fig.cap = "In March 2024, Dr. Arshiya Bose (founder of Black Baza Coffee) and I spoke about and played soundscapes from coffee farms in the Western Ghats"}
-
-knitr::include_graphics("soundscapes-event-blackBaza.png")
 ```
 
 ### Gray slender loris acoustics  
