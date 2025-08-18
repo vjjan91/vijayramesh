@@ -33,13 +33,18 @@ d-title {
 
 ### Works in progress     
 
-Ramesh, Vijay, Srivathsa, Meghana, Hariharan, Priyanka, Symes, Laurel. *Current stage: Analysis*. __Diurnal variation in avian vocal activity across a gradient of forest regeneration__.  
-
 Ramesh, Vijay, Hariharan, Priyanka, Symes, Laurel. *Current stage: Analysis*. __Abundance is highly correlated with vocal activity across a community of tropical birds__.  
 
-Ramesh, Vijay, Akshay, VA, Chandrasekar, S, Gupte, Pratik Rajan, Rajan, Amrutha, Mohan, Ashwini V, Mohanraj, S, Robin, VV, Tingley, Morgan W, DeFries, Ruth S. *Current stage: Writing*. __Historical resurveys of birds reveal range shifts along a tropical montane gradient in the Western Ghats__.   
+Sugai, Larissa, Balantic, Cathleen, Clink, Dena J, Ramesh, Vijay, Kahl, Stefan, Klinck, Holger, Wood, Connor M. *Current stage: In review*. __Acoustic indices are obsolete for biodiversity research__.  
 
-### Peer-reviewed publications 
+### Peer-reviewed publications  
+
+Ramesh, Vijay, Hariharan, Priyanka, Rajan Gupte, Pratik, Mohan, Ashwini V, Akshay, VA, Rajan, Amrutha, Das, Chandrasekar, Lockwood, Ian, Robin, VV, Tingley, Morgan W, DeFries, Ruth S. __Grassland Bird Species Decline With Colonial-Era Landscape Change in a Tropical Montane Ecosystem__. 2025. Global Change Biology. [Download PDF here](files/2025-ramesh et al-gcb.pdf). [Code and analysis here](https://github.com/vjjan91/nilgiris-resurvey-project).  
+
+Ramesh, Vijay, Sundar, Pavithra, Srivathsa, Meghana, Symes, Laurel. __Why is the early bird early? An evaluation of hypotheses for avian dawn-biased vocal activity__. 2025. Philosophical Transactions of the Royal Society. [Download PDF here](files/2025-ramesh et al-roySoc.pdf). [Code and analysis here](https://github.com/vjjan91/diurnal-Acoustics).  
+*Media coverage*: [NPR](https://www.npr.org/2025/06/20/nx-s1-5436078/why-birds-sing-dawn-chorus-research-study), [Cornell Chronicle](https://news.cornell.edu/stories/2025/06/study-reveals-why-early-bird-sings-early), [Times of India](https://timesofindia.indiatimes.com/city/pune/birds-sing-at-sunrise-to-defend-their-territory-and-communicate-about-food-study/articleshow/121837767.cms).  
+
+Darras, Kevin FA,......Ramesh, Vijay, et al. __Worldwide Soundscapes: a synthesis of passive acoustic monitoring across realms__. 2025. Global Ecology and Biogeography. [Download PDF here](files/2025-darras et al-geb.pdf).  
 
 Menon, Tarun, Ramesh, Vijay, Barve, Sahas. __Himalayan birds that show the greatest elevational shifts remain within the narrowest thermal regimes__. 2023. Global Ecology and Biogeography. [Download PDF here](files/2023-menon et al-geb.pdf). [Code and analysis here](https://github.com/vjjan91/elevMigration).  
 *Media coverage*: [Mongabay](https://india.mongabay.com/2024/04/understanding-the-elevational-movements-of-himalayan-birds-to-improve-conservation-efforts/).  
